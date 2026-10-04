@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+ecommerce.db
+.ipynb_checkpoints/
