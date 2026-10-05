@@ -143,3 +143,92 @@ FREE_SHIPPING_THRESHOLD = 75.00
 def unique_random_ids(rng, n, low, high):
     """Random, unique, numeric-only IDs."""
     return rng.choice(np.arange(low, high), size=n, replace=False)
+# ----------------------------------------------------------------------------
+# Customers (part 1: everything except loyalty tier, which depends on orders)
+# ----------------------------------------------------------------------------
+
+
+def build_customers(rng):
+    n = N_CUSTOMERS
+    ids = unique_random_ids(rng, n, 100_000, 1_000_000)  # 6-digit
+
+    gender = rng.choice(["Female", "Male", "Non-binary"],
+                        size=n, p=[0.50, 0.47, 0.03])
+    first = np.array([
+        rng.choice(FIRST_F if g == "Female" else FIRST_M if g == "Male" else FIRST_N) for g in gender
+    ])
+    last = rng.choice(LAST_NAMES, size=n)
+
+    age = np.clip(rng.normal(38, 12, n).round(), 18, 80).astype(float)
+
+    # Sign-ups spread across ~3.7 years (steady acquisition)
+    days_span = (ORDER_END - SIGNUP_START).days
+    signup_offset = (days_span * rng.beta(1.0, 1.0, n)).astype(int)
+    signup = SIGNUP_START + pd.to_timedelta(signup_offset, unit="D")
+
+    weights = np.array([l[4] for l in LOCATIONS], dtype=float)
+    loc_idx = rng.choice(len(LOCATIONS), size=n, p=weights / weights.sum())
+    state = np.array([LOCATIONS[i][0] for i in loc_idx])
+    country = np.array([LOCATIONS[i][1] for i in loc_idx])
+    city = np.array([rng.choice(LOCATIONS[i][3]) for i in loc_idx])
+
+    domains = rng.choice(EMAIL_DOMAINS, size=n, p=EMAIL_WEIGHTS)
+    suffix = rng.integers(1, 999, n)
+    email = np.array([f"{f.lower()}.{l.lower()}{s}@{d}"
+                      for f, l, s, d in zip(first, last, suffix, domains)], dtype=object)
+
+    df = pd.DataFrame({
+        "customer_id": ids,
+        "first_name": first,
+        "last_name": last,
+        "email": email,
+        "age": age,
+        "gender": gender,
+        "signup_date": signup.normalize(),
+        "city": city,
+        "state": state,
+        "country": country,
+        "acquisition_channel": rng.choice(CHANNELS, size=n, p=CHANNEL_WEIGHTS),
+        "marketing_opt_in": rng.random(n) < 0.62,
+    })
+    return df
+
+
+# ----------------------------------------------------------------------------
+# Orders-per-customer allocation (repeat customers, ~100 inactive)
+# ----------------------------------------------------------------------------
+def allocate_orders(rng, customers):
+    n = len(customers)
+    signup = customers["signup_date"]
+
+    # Slightly favour recent sign-ups as inactive (they haven't had time to buy)
+    recency = (signup - SIGNUP_START).dt.days.to_numpy() + 1.0
+    p_inactive = recency / recency.sum()
+    inactive_idx = rng.choice(n, size=N_INACTIVE, replace=False, p=p_inactive)
+    is_inactive = np.zeros(n, dtype=bool)
+    is_inactive[inactive_idx] = True
+
+    # Active customers: 1 guaranteed order + heavy-tailed share of the rest
+    active = np.where(~is_inactive)[0]
+    # More tenure => more orders; gamma noise gives a long tail of power buyers
+    tenure_days = (
+        ORDER_END - signup.iloc[active]).dt.days.clip(lower=1).to_numpy()
+    w = rng.gamma(0.7, 1.0, len(active)) * np.sqrt(tenure_days)
+    extra = rng.multinomial(N_ORDERS - len(active), w / w.sum())
+    counts = np.zeros(n, dtype=int)
+    counts[active] = 1 + extra
+    return counts
+
+
+def assign_tiers(rng, counts):
+    """Loyalty tier correlates with order count (with noise); inactive => Bronze."""
+    n = len(counts)
+    tiers = np.array(["Bronze"] * n, dtype=object)
+    active = np.where(counts > 0)[0]
+    score = counts[active] + rng.normal(0, 1.2, len(active))
+    ranks = pd.Series(score).rank(pct=True).to_numpy()
+    t = np.where(ranks > 0.93, "Platinum",
+                 np.where(ranks > 0.75, "Gold",
+                          np.where(ranks > 0.45, "Silver", "Bronze")))
+    tiers[active] = t
+    return tiers
