@@ -232,3 +232,211 @@ def assign_tiers(rng, counts):
                           np.where(ranks > 0.45, "Silver", "Bronze")))
     tiers[active] = t
     return tiers
+# ----------------------------------------------------------------------------
+# Orders
+# ----------------------------------------------------------------------------
+
+
+def build_orders(rng, customers, counts):
+    # One row per order, repeating each customer id by its order count
+    cust_rep = customers.loc[customers.index.repeat(
+        counts)].reset_index(drop=True)
+    n = len(cust_rep)
+    assert n == N_ORDERS
+
+    # --- dates: seasonal + weekday weights, never before the customer's sign-up
+    days = pd.date_range(ORDER_START, ORDER_END, freq="D")
+    day_w = np.array(
+        [MONTH_WEIGHT[d.month] * DOW_WEIGHT[d.dayofweek] for d in days])
+    # Black Friday / Cyber Monday spikes, plus a mid-July sale
+    for d, mult in [("2024-11-29", 3.0), ("2024-12-02", 2.2), ("2025-07-15", 2.0), ("2025-07-16", 2.0),
+                    ("2025-11-28", 3.2), ("2025-12-01", 2.4), ("2026-07-14", 2.0), ("2026-07-15", 2.0)]:
+        ts = pd.Timestamp(d)
+        if ts in days:
+            day_w[(days == ts).argmax()] *= mult
+    cum = np.cumsum(day_w)
+
+    first_ok = np.searchsorted(
+        days.values, cust_rep["signup_date"].values, side="left")
+    first_ok = np.clip(first_ok, 0, len(days) - 1)
+    lo = np.where(first_ok > 0, cum[first_ok - 1], 0.0)
+    u = lo + rng.random(n) * (cum[-1] - lo)
+    day_idx = np.clip(np.searchsorted(cum, u), first_ok, len(days) - 1)
+    order_date = days[day_idx]
+    order_ts = order_date + \
+        pd.to_timedelta(rng.integers(0, 86_400, n), unit="s")
+
+    # --- product: customers have a favourite category (40% of the time)
+    cats = list(CATALOG)
+    cat_w = np.array([CATALOG[c][0] for c in cats])
+    cat_w = cat_w / cat_w.sum()
+    fav = rng.choice(cats, size=len(customers), p=cat_w)
+    fav_map = dict(zip(customers["customer_id"], fav))
+    category = np.empty(n, dtype=object)
+    use_fav = rng.random(n) < 0.40
+    random_cat = rng.choice(cats, size=n, p=cat_w)
+    category[:] = random_cat
+    category[use_fav] = cust_rep.loc[use_fav,
+                                     "customer_id"].map(fav_map).to_numpy()
+
+    # Seasonal tilt: more Toys/Electronics in Nov-Dec, Sports/Outdoors in summer
+    month = order_date.month.to_numpy()
+    holiday = np.isin(month, [11, 12]) & (rng.random(n) < 0.18)
+    category[holiday] = rng.choice(
+        ["Toys & Games", "Electronics", "Clothing"], size=holiday.sum(), p=[0.4, 0.35, 0.25])
+    summer = np.isin(month, [5, 6, 7, 8]) & (rng.random(n) < 0.10)
+    category[summer] = "Sports & Outdoors"
+
+    # Beauty skews female, Electronics skews male (mild, not absolute)
+    g = cust_rep["gender"].to_numpy()
+    flip_b = (g == "Female") & (rng.random(n) < 0.06)
+    category[flip_b] = "Beauty & Personal Care"
+    flip_e = (g == "Male") & (rng.random(n) < 0.06)
+    category[flip_e] = "Electronics"
+
+    product_name = np.empty(n, dtype=object)
+    base_price = np.empty(n)
+    for c in cats:
+        mask = category == c
+        items = CATALOG[c][2]
+        # popular products get more sales (Zipf-ish)
+        pw = 1.0 / np.arange(1, len(items) + 1) ** 0.8
+        pick = rng.choice(len(items), size=mask.sum(), p=pw / pw.sum())
+        product_name[mask] = [items[i][0] for i in pick]
+        base_price[mask] = [items[i][1] for i in pick]
+
+    # --- quantity: mostly 1; cheaper items & "bulk-friendly" categories sell more units
+    bulk_bias = np.array([CATALOG[c][1] for c in category])
+    p_multi = np.clip(0.10 + 0.25 * bulk_bias - base_price / 600, 0.03, 0.40)
+    quantity = np.ones(n, dtype=int)
+    multi = rng.random(n) < p_multi
+    quantity[multi] = 1 + rng.geometric(0.55, multi.sum())
+    quantity = np.clip(quantity, 1, 8)
+
+    # --- unit price: base price + mild drift (inflation) + small noise, nice .99 endings
+    years = (order_date - ORDER_START).days.to_numpy() / 365.0
+    drift = 1 + 0.025 * years
+    noise = rng.normal(1.0, 0.04, n)
+    unit_price = np.round(base_price * drift * noise).astype(float) - 0.01
+    unit_price = np.round(np.maximum(unit_price, 1.99), 2)
+
+    # --- discounts: more in Nov/Dec/Jul, bigger for loyal tiers
+    tier = cust_rep["loyalty_tier"].to_numpy()
+    tier_boost = pd.Series(tier).map(
+        {"Bronze": 0.0, "Silver": 0.03, "Gold": 0.06, "Platinum": 0.10}).to_numpy()
+    p_disc = 0.28 + tier_boost + \
+        np.where(np.isin(month, [11, 12]), 0.30, 0) + \
+        np.where(month == 7, 0.15, 0)
+    p_disc = np.clip(p_disc, 0, 0.9)
+    has_disc = rng.random(n) < p_disc
+    disc_levels = np.array([5, 10, 15, 20, 25, 30, 40])
+    base_p = np.array([0.22, 0.30, 0.20, 0.12, 0.08, 0.06, 0.02])
+    discount = np.zeros(n)
+    discount[has_disc] = rng.choice(disc_levels, size=has_disc.sum(), p=base_p)
+    big_sale = np.isin(order_date.strftime("%m-%d"),
+                       ["11-28", "11-29", "12-01", "12-02"]) & has_disc
+    discount[big_sale] = np.maximum(discount[big_sale], 25)
+
+    # --- shipping method
+    ship_method = rng.choice(SHIPPING_METHODS, size=n,
+                             p=[0.62, 0.20, 0.07, 0.11])
+    # Platinum/Gold members upgrade to faster options more often
+    upgrade = np.isin(tier, ["Gold", "Platinum"]) & (
+        ship_method == "Standard") & (rng.random(n) < 0.20)
+    ship_method[upgrade] = "Express"
+
+    # --- money (all rounded at each step so the row is internally consistent)
+    subtotal = np.round(quantity * unit_price * (1 - discount / 100), 2)
+    base_ship = pd.Series(ship_method).map(SHIPPING_FEES).to_numpy()
+    free_ship = (ship_method == "Standard") & (
+        (subtotal >= FREE_SHIPPING_THRESHOLD) | np.isin(tier, ["Gold", "Platinum"]))
+    shipping_cost = np.where(free_ship, 0.0, base_ship)
+    tax_rate = cust_rep["state"].map(TAX_BY_STATE).to_numpy()
+    tax_amount = np.round(subtotal * tax_rate, 2)
+    total = np.round(subtotal + shipping_cost + tax_amount, 2)
+
+    # --- payment method (younger => more Apple Pay / BNPL)
+    age = cust_rep["age"].fillna(38).to_numpy()
+    payment = np.empty(n, dtype=object)
+    young = age < 30
+    mid = (age >= 30) & (age < 50)
+    old = age >= 50
+    methods = ["Credit Card", "Debit Card", "PayPal",
+               "Apple Pay", "Buy Now Pay Later", "Gift Card"]
+    payment[young] = rng.choice(methods, size=young.sum(), p=[
+                                0.26, 0.20, 0.12, 0.24, 0.15, 0.03])
+    payment[mid] = rng.choice(methods, size=mid.sum(), p=[
+                              0.42, 0.20, 0.16, 0.13, 0.07, 0.02])
+    payment[old] = rng.choice(methods, size=old.sum(), p=[
+                              0.48, 0.22, 0.20, 0.04, 0.02, 0.04])
+
+    # --- status / shipping & delivery timelines (aware of "today" = ORDER_END)
+    lead = {m: SHIPPING_DAYS[m] for m in SHIPPING_METHODS}
+    transit = np.array([rng.integers(lead[m][0], lead[m][1] + 1)
+                       for m in ship_method])
+    ship_lag = rng.choice([0, 1, 1, 2, 3], size=n)
+    ship_date = order_date + pd.to_timedelta(ship_lag, unit="D")
+    delivery_date = ship_date + pd.to_timedelta(transit, unit="D")
+
+    status = rng.choice(["Delivered", "Cancelled", "Returned"], size=n, p=[
+                        0.90, 0.04, 0.06]).astype(object)
+    # Returns are rarer for Books and common for Clothing
+    ret_adj = (category == "Clothing") & (
+        status == "Delivered") & (rng.random(n) < 0.04)
+    status[ret_adj] = "Returned"
+    # Recent orders can't be delivered yet
+    in_flight = delivery_date > ORDER_END
+    status[in_flight & (status != "Cancelled")] = "Shipped"
+    status[(ship_date > ORDER_END) & (status != "Cancelled")] = "Processing"
+
+    ship_date = pd.Series(ship_date)
+    delivery_date = pd.Series(delivery_date)
+    cancelled = status == "Cancelled"
+    ship_date[cancelled | (status == "Processing")] = pd.NaT
+    delivery_date[cancelled | np.isin(
+        status, ["Processing", "Shipped"])] = pd.NaT
+
+    # --- extras
+    channel = rng.choice(
+        ["Website", "Mobile App", "Marketplace"], size=n, p=[0.55, 0.35, 0.10])
+    coupon = np.full(n, None, dtype=object)
+    coupon_mask = has_disc & (rng.random(n) < 0.55)
+    coupon_pick = np.where(discount[coupon_mask] >= 30, "VIP30",
+                           np.where(discount[coupon_mask] >= 25, "HOLIDAY25",
+                           np.where(discount[coupon_mask] >= 20, "SUMMER20",
+                                    np.where(discount[coupon_mask] >= 15, "SAVE15", "WELCOME10"))))
+    coupon[coupon_mask] = coupon_pick
+    is_gift = rng.random(n) < np.where(np.isin(month, [11, 12]), 0.22, 0.05)
+
+    # --- order IDs: unique, random, numeric-only (8 digits)
+    order_id = unique_random_ids(rng, n, 10_000_000, 100_000_000)
+
+    orders = pd.DataFrame({
+        "order_id": order_id,
+        "customer_id": cust_rep["customer_id"].to_numpy(),
+        "order_date": order_date.normalize(),
+        "order_timestamp": order_ts,
+        "product_category": category,
+        "product_name": product_name,
+        "quantity": quantity,
+        "unit_price": unit_price,
+        "discount_percent": discount.astype(int),
+        "subtotal": subtotal,
+        "shipping_cost": np.round(shipping_cost, 2),
+        "tax_amount": tax_amount,
+        "total_amount": total,
+        "payment_method": payment,
+        "order_status": status,
+        "shipping_method": ship_method,
+        "ship_date": ship_date.to_numpy(),
+        "delivery_date": delivery_date.to_numpy(),
+        "sales_channel": channel,
+        "coupon_code": coupon,
+        "is_gift": is_gift,
+    })
+
+    # --- occasional missing values (only on non-financial, non-key fields)
+    for col, rate in [("payment_method", 0.006), ("sales_channel", 0.012)]:
+        orders.loc[rng.random(n) < rate, col] = None
+
+    return orders.sort_values(["order_date", "order_timestamp"]).reset_index(drop=True)
