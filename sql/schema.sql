@@ -1,0 +1,2 @@
+-- Schema for the synthetic e-commerce dataset.
+-- Works as-is in SQLite and PostgreSQL (MySQL: swap BOOLEAN for TINYINT(1)).
