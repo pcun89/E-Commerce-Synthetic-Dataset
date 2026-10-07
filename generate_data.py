@@ -440,3 +440,86 @@ def build_orders(rng, customers, counts):
         orders.loc[rng.random(n) < rate, col] = None
 
     return orders.sort_values(["order_date", "order_timestamp"]).reset_index(drop=True)
+# ----------------------------------------------------------------------------
+# Validation
+# ----------------------------------------------------------------------------
+
+
+def validate(customers, orders):
+    assert len(customers) == N_CUSTOMERS, "customer row count"
+    assert len(orders) == N_ORDERS, "order row count"
+    assert customers["customer_id"].is_unique and orders["order_id"].is_unique, "PK uniqueness"
+    assert orders["customer_id"].isin(
+        customers["customer_id"]).all(), "FK integrity"
+    inactive = (~customers["customer_id"].isin(orders["customer_id"])).sum()
+    assert inactive == N_INACTIVE, f"inactive customers = {inactive}"
+
+    # financial consistency
+    sub = (orders["quantity"] * orders["unit_price"] *
+           (1 - orders["discount_percent"] / 100)).round(2)
+    assert np.allclose(sub, orders["subtotal"], atol=0.011), "subtotal"
+    tot = (orders["subtotal"] + orders["shipping_cost"] +
+           orders["tax_amount"]).round(2)
+    assert np.allclose(tot, orders["total_amount"], atol=0.011), "total_amount"
+
+    # date logic
+    merged = orders.merge(
+        customers[["customer_id", "signup_date"]], on="customer_id")
+    assert (merged["order_date"] >= merged["signup_date"]
+            ).all(), "order before signup"
+    assert orders["order_date"].min(
+    ) >= ORDER_START and orders["order_date"].max() <= ORDER_END
+    shipped = orders.dropna(subset=["ship_date"])
+    assert (shipped["ship_date"] >= shipped["order_date"]
+            ).all(), "ship before order"
+    deliv = orders.dropna(subset=["delivery_date"])
+    assert (deliv["delivery_date"] >= deliv["ship_date"]
+            ).all(), "delivery before ship"
+    return inactive
+
+
+def main():
+    ap = argparse.ArgumentParser(
+        description="Generate synthetic e-commerce CSVs")
+    ap.add_argument("--seed", type=int, default=42)
+    ap.add_argument("--out", type=Path, default=Path(__file__).parent / "data")
+    args = ap.parse_args()
+    rng = np.random.default_rng(args.seed)
+
+    customers = build_customers(rng)
+    counts = allocate_orders(rng, customers)
+    customers["loyalty_tier"] = assign_tiers(rng, counts)
+    orders = build_orders(rng, customers, counts)
+
+    # Occasional missing values in customers
+    n = len(customers)
+    customers.loc[rng.random(n) < 0.025, "age"] = np.nan
+    customers.loc[rng.random(n) < 0.030, "gender"] = None
+    customers.loc[rng.random(n) < 0.015, "email"] = None
+    customers["age"] = customers["age"].astype("Int64")
+
+    inactive = validate(customers, orders)
+
+    cols = ["customer_id", "first_name", "last_name", "email", "age", "gender", "signup_date",
+            "loyalty_tier", "city", "state", "country", "acquisition_channel", "marketing_opt_in"]
+    customers = customers[cols].sort_values(
+        "signup_date").reset_index(drop=True)
+
+    args.out.mkdir(parents=True, exist_ok=True)
+    customers.to_csv(args.out / "customers.csv",
+                     index=False, date_format="%Y-%m-%d")
+    orders["order_timestamp"] = orders["order_timestamp"].dt.strftime(
+        "%Y-%m-%d %H:%M:%S")
+    orders.to_csv(args.out / "orders.csv", index=False, date_format="%Y-%m-%d")
+
+    print(
+        f"customers.csv: {len(customers):,} rows ({inactive} with no orders)")
+    print(f"orders.csv:    {len(orders):,} rows, "
+          f"{orders['order_date'].min()} -> {orders['order_date'].max()}")
+    print(
+        f"total revenue: ${orders.loc[orders['order_status'] != 'Cancelled', 'total_amount'].sum():,.2f}")
+    print("All validation checks passed.")
+
+
+if __name__ == "__main__":
+    main()
