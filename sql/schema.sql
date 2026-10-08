@@ -38,3 +38,8 @@ CREATE TABLE orders (
     coupon_code      TEXT           ,
     is_gift          BOOLEAN        
 );
+CREATE INDEX idx_orders_customer
+    ON orders(customer_id);
+
+CREATE INDEX idx_orders_date
+    ON orders(order_date);
