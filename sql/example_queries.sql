@@ -1,0 +1,3 @@
+-- Practice queries (SQLite syntax; PostgreSQL notes where it differs).
+-- Revenue below excludes cancelled orders.
+-- ============================== JOINS ======================================
