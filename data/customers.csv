@@ -1,0 +1,1001 @@
+customer_id,first_name,last_name,email,age,gender,signup_date,loyalty_tier,city,state,country,acquisition_channel,marketing_opt_in
+336963,Harper,Rivera,harper.rivera4@gmail.com,26,Female,2023-01-02,Silver,Portland,OR,USA,Paid Social,False
+382916,Noah,Silva,noah.silva719@yahoo.com,34,Male,2023-01-02,Gold,Mesa,AZ,USA,Organic Search,True
+208191,Ravi,Nelson,ravi.nelson767@icloud.com,27,Male,2023-01-03,Bronze,Orlando,FL,USA,Paid Social,True
+764665,Fatima,Flores,fatima.flores340@gmail.com,36,Female,2023-01-08,Bronze,San Antonio,TX,USA,Organic Search,True
+801216,Arjun,King,arjun.king542@icloud.com,25,Male,2023-01-08,Gold,San Antonio,TX,USA,Organic Search,False
+672511,Ravi,Lee,ravi.lee497@icloud.com,45,Male,2023-01-09,Bronze,Charlotte,NC,USA,Paid Social,True
+926417,Lily,Rodriguez,lily.rodriguez369@icloud.com,28,Female,2023-01-10,Silver,New York,NY,USA,Referral,True
+983620,Lucas,Wright,lucas.wright69@yahoo.com,39,Male,2023-01-10,Bronze,New York,NY,USA,Paid Social,True
+429617,Mia,Thomas,mia.thomas293@yahoo.com,23,Female,2023-01-10,Bronze,Spokane,WA,USA,Paid Social,True
+252402,Elijah,Kowalski,elijah.kowalski939@hotmail.com,63,Male,2023-01-11,Bronze,Tampa,FL,USA,Paid Social,True
+159870,Camila,Silva,camila.silva400@hotmail.com,29,Female,2023-01-12,Gold,New York,NY,USA,Direct,False
+427056,Scarlett,Lee,scarlett.lee499@icloud.com,27,Female,2023-01-12,Silver,Raleigh,NC,USA,Referral,True
+233307,Olivia,Garcia,olivia.garcia56@gmail.com,55,Female,2023-01-14,Gold,Charlotte,NC,USA,Paid Social,False
+225651,Mohammed,Taylor,mohammed.taylor2@yahoo.com,18,Male,2023-01-16,Silver,Los Angeles,CA,USA,Paid Social,True
+571156,Abigail,Baker,abigail.baker302@gmail.com,18,Female,2023-01-17,Bronze,Allentown,PA,USA,Affiliate,True
+566643,Kenji,Davis,kenji.davis95@outlook.com,43,Male,2023-01-20,Gold,Raleigh,NC,USA,Email Campaign,True
+607530,Elijah,Patel,elijah.patel466@hotmail.com,37,Male,2023-01-20,Bronze,Philadelphia,PA,USA,Organic Search,True
+590119,Lucas,White,lucas.white36@outlook.com,38,Male,2023-01-23,Gold,Sacramento,CA,USA,Organic Search,False
+756767,Sam,Torres,sam.torres688@gmail.com,36,Non-binary,2023-01-23,Silver,Los Angeles,CA,USA,Organic Search,True
+502006,Layla,Chen,layla.chen959@gmail.com,25,Female,2023-01-25,Silver,Toronto,ON,Canada,Paid Social,True
+529534,Wei,Davis,wei.davis23@gmail.com,19,Male,2023-01-31,Bronze,Jacksonville,FL,USA,Organic Search,True
+500529,Diego,Jones,diego.jones692@gmail.com,41,Male,2023-01-31,Bronze,Augusta,GA,USA,Paid Social,True
+196023,Theodore,Singh,theodore.singh513@gmail.com,29,Male,2023-01-31,Gold,Billings,MT,USA,Paid Social,False
+843123,Olivia,Walker,olivia.walker431@outlook.com,37,Female,2023-02-02,Silver,Los Angeles,CA,USA,Direct,False
+261232,Fatima,Cohen,fatima.cohen222@outlook.com,50,Female,2023-02-03,Platinum,Laval,QC,Canada,Affiliate,True
+344803,Mia,Williams,mia.williams706@yahoo.com,39,Female,2023-02-06,Gold,Buffalo,NY,USA,Paid Social,True
+358989,Sophia,Patel,sophia.patel34@outlook.com,67,Female,2023-02-07,Gold,Allentown,PA,USA,Referral,False
+269262,Oliver,Flores,oliver.flores28@gmail.com,28,Male,2023-02-08,Gold,Montreal,QC,Canada,Organic Search,False
+341690,Noah,Kowalski,noah.kowalski526@gmail.com,35,Male,2023-02-10,Bronze,Portland,OR,USA,Direct,True
+315792,Henry,Johnson,henry.johnson67@proton.me,39,Male,2023-02-13,Silver,Austin,TX,USA,Affiliate,False
+588666,Chloe,Flores,chloe.flores935@yahoo.com,21,Female,2023-02-14,Bronze,Phoenix,AZ,USA,Paid Social,True
+799805,Grace,King,grace.king480@outlook.com,30,Female,2023-02-19,Gold,Surrey,BC,Canada,Organic Search,False
+659265,Arjun,Torres,arjun.torres103@gmail.com,29,Male,2023-02-22,Gold,Denver,CO,USA,Organic Search,True
+847516,Elijah,Singh,elijah.singh926@gmail.com,18,Male,2023-02-23,Bronze,Mississauga,ON,Canada,Paid Social,False
+902175,Olivia,Thompson,olivia.thompson918@gmail.com,66,Female,2023-02-25,Silver,Edmonton,AB,Canada,Referral,True
+528197,James,Robinson,james.robinson765@gmail.com,55,Male,2023-02-26,Gold,Fresno,CA,USA,Referral,True
+474458,Camila,Garcia,camila.garcia895@gmail.com,55,Female,2023-02-26,Bronze,Salem,OR,USA,Organic Search,False
+516529,Evelyn,Moore,evelyn.moore555@gmail.com,36,Female,2023-02-28,Bronze,San Diego,CA,USA,Organic Search,True
+427680,Chloe,Jackson,chloe.jackson817@gmail.com,37,Female,2023-03-01,Gold,San Antonio,TX,USA,Referral,False
+274990,Evelyn,Smith,evelyn.smith822@gmail.com,45,Female,2023-03-03,Bronze,Allentown,PA,USA,Paid Social,False
+491306,Mateo,Murphy,mateo.murphy566@gmail.com,35,Male,2023-03-04,Gold,Colorado Springs,CO,USA,Paid Social,False
+582250,Emily,Johnson,emily.johnson175@gmail.com,46,Female,2023-03-05,Bronze,Dallas,TX,USA,Organic Search,True
+868466,Grace,Lewis,grace.lewis142@gmail.com,33,Female,2023-03-05,Silver,Orlando,FL,USA,Affiliate,True
+940383,Ravi,White,ravi.white815@gmail.com,41,Male,2023-03-06,Bronze,Raleigh,NC,USA,Paid Social,False
+282050,Lucas,Walker,lucas.walker400@gmail.com,31,Male,2023-03-07,Silver,Mississauga,ON,Canada,Paid Social,True
+729800,Scarlett,Clark,scarlett.clark420@gmail.com,47,Female,2023-03-08,Platinum,Tampa,FL,USA,Email Campaign,False
+352289,Priya,Murphy,priya.murphy840@outlook.com,46,Female,2023-03-10,Silver,Denver,CO,USA,Organic Search,False
+209578,Harper,Lewis,harper.lewis103@gmail.com,42,Female,2023-03-13,Silver,Atlanta,GA,USA,Direct,False
+962007,Jack,Anderson,jack.anderson137@outlook.com,67,Male,2023-03-13,Bronze,Charlotte,NC,USA,Organic Search,True
+261376,Owen,Tanaka,owen.tanaka917@yahoo.com,49,Male,2023-03-16,Gold,Columbus,OH,USA,Paid Social,False
+553849,Jack,Gonzalez,jack.gonzalez607@gmail.com,45,Male,2023-03-16,Gold,Columbus,OH,USA,Organic Search,False
+495265,Ravi,Clark,ravi.clark925@icloud.com,56,Male,2023-03-16,Platinum,Denver,CO,USA,Referral,False
+787312,Kenji,Hernandez,kenji.hernandez267@gmail.com,18,Male,2023-03-17,Gold,New York,NY,USA,Referral,False
+438706,Amelia,Taylor,amelia.taylor143@gmail.com,35,Female,2023-03-17,Bronze,Columbus,OH,USA,Paid Social,False
+700975,Chloe,Davis,chloe.davis451@outlook.com,22,Female,2023-03-19,Silver,Montreal,QC,Canada,Organic Search,True
+821215,Priya,Baker,,45,Female,2023-03-20,Platinum,New York,NY,USA,Organic Search,True
+339071,Alexander,Hall,alexander.hall225@gmail.com,26,Male,2023-03-20,Bronze,Los Angeles,CA,USA,Referral,False
+113112,Owen,Kowalski,owen.kowalski960@gmail.com,46,Male,2023-03-21,Silver,Houston,TX,USA,Organic Search,True
+695166,Daniel,Rodriguez,daniel.rodriguez496@gmail.com,18,Male,2023-03-25,Silver,Savannah,GA,USA,Paid Social,True
+257536,Mohammed,Singh,mohammed.singh869@yahoo.com,37,Male,2023-03-26,Bronze,Houston,TX,USA,Organic Search,False
+654365,Chloe,Young,chloe.young898@gmail.com,46,Female,2023-03-26,Platinum,Durham,NC,USA,Email Campaign,False
+386050,Harper,Wilson,harper.wilson780@gmail.com,27,Female,2023-03-27,Platinum,Miami,FL,USA,Organic Search,True
+693029,Camila,Hall,camila.hall222@hotmail.com,63,Female,2023-03-28,Gold,Dallas,TX,USA,Referral,True
+971810,Benjamin,Kowalski,benjamin.kowalski988@gmail.com,31,Male,2023-03-28,Bronze,Spokane,WA,USA,Direct,True
+185153,Ravi,Cohen,ravi.cohen521@icloud.com,42,Male,2023-03-28,Bronze,New York,NY,USA,Organic Search,False
+803013,Isabella,Chen,isabella.chen401@gmail.com,33,Female,2023-03-29,Bronze,Houston,TX,USA,Referral,False
+309257,Jamal,Carter,jamal.carter767@gmail.com,35,Male,2023-03-31,Silver,Tucson,AZ,USA,Organic Search,True
+687101,Arjun,Khan,arjun.khan56@outlook.com,36,Male,2023-03-31,Silver,Surrey,BC,Canada,Affiliate,False
+577653,Ava,Baker,ava.baker136@yahoo.com,36,Female,2023-03-31,Gold,Cleveland,OH,USA,Affiliate,True
+392938,Sofia,Lewis,sofia.lewis800@gmail.com,23,Female,2023-04-04,Platinum,Albany,NY,USA,Paid Social,True
+874361,Zoe,Singh,zoe.singh708@gmail.com,33,Female,2023-04-06,Gold,Spokane,WA,USA,Direct,False
+822430,Lucas,Ramirez,lucas.ramirez176@gmail.com,30,Male,2023-04-08,Gold,Spokane,WA,USA,Organic Search,True
+359971,Henry,Wright,henry.wright798@hotmail.com,58,Male,2023-04-11,Platinum,Augusta,GA,USA,Email Campaign,True
+430623,Mia,Miller,mia.miller114@gmail.com,24,Female,2023-04-12,Gold,Raleigh,NC,USA,Referral,False
+467925,Evelyn,Moore,evelyn.moore971@gmail.com,32,Female,2023-04-14,Bronze,Albany,NY,USA,Organic Search,True
+568337,Aisha,Khan,aisha.khan496@gmail.com,36,Female,2023-04-14,Bronze,Cincinnati,OH,USA,Paid Social,True
+240669,Kenji,Adams,kenji.adams598@outlook.com,22,Male,2023-04-16,Platinum,New York,NY,USA,Organic Search,True
+424590,Amelia,Gonzalez,amelia.gonzalez484@gmail.com,44,Female,2023-04-20,Platinum,Durham,NC,USA,Referral,True
+813548,Mateo,Singh,,36,Male,2023-04-20,Bronze,Eugene,OR,USA,Organic Search,True
+860538,Harper,Young,harper.young441@yahoo.com,44,Female,2023-04-21,Bronze,Savannah,GA,USA,Referral,False
+907175,Nora,Walker,nora.walker265@yahoo.com,42,Female,2023-04-23,Gold,Victoria,BC,Canada,Organic Search,True
+565789,Benjamin,Taylor,benjamin.taylor974@outlook.com,59,Male,2023-04-23,Gold,Chicago,IL,USA,Paid Social,True
+475813,Emma,Scott,emma.scott335@outlook.com,62,,2023-04-23,Gold,Ottawa,ON,Canada,Organic Search,True
+507887,Sophia,Scott,sophia.scott507@gmail.com,63,Female,2023-04-27,Silver,San Antonio,TX,USA,Email Campaign,False
+861838,Emma,White,emma.white860@gmail.com,23,Female,2023-04-27,Bronze,Albany,NY,USA,Direct,False
+953934,Scarlett,Ramirez,scarlett.ramirez818@yahoo.com,45,Female,2023-04-28,Gold,Cleveland,OH,USA,Direct,True
+133503,Scarlett,Baker,scarlett.baker75@hotmail.com,50,Female,2023-04-29,Gold,Dallas,TX,USA,Organic Search,False
+119435,Emily,Nguyen,emily.nguyen669@gmail.com,24,Female,2023-04-30,Silver,Cleveland,OH,USA,Organic Search,True
+149830,Mei,Kowalski,mei.kowalski407@gmail.com,23,Female,2023-05-01,Gold,Colorado Springs,CO,USA,Organic Search,True
+589944,Lily,White,lily.white505@hotmail.com,33,Female,2023-05-04,Silver,San Jose,CA,USA,Direct,True
+643533,Aisha,Brown,aisha.brown106@gmail.com,46,,2023-05-07,Bronze,Orlando,FL,USA,Organic Search,False
+425339,Jack,Cohen,jack.cohen336@gmail.com,55,Male,2023-05-09,Silver,Fresno,CA,USA,Email Campaign,True
+686413,Mia,Allen,mia.allen585@gmail.com,42,Female,2023-05-09,Gold,San Diego,CA,USA,Direct,True
+965593,Fatima,Scott,fatima.scott325@hotmail.com,32,Female,2023-05-10,Bronze,Sacramento,CA,USA,Organic Search,False
+465408,Zoe,Chen,zoe.chen102@gmail.com,51,Female,2023-05-12,Silver,Montreal,QC,Canada,Direct,False
+568633,Emily,Martinez,emily.martinez804@icloud.com,33,Female,2023-05-12,Bronze,Phoenix,AZ,USA,Affiliate,False
+611364,Grace,Jackson,grace.jackson165@yahoo.com,18,Female,2023-05-15,Silver,Boulder,CO,USA,Referral,True
+316725,William,Sanchez,william.sanchez838@gmail.com,42,Male,2023-05-16,Gold,Austin,TX,USA,Email Campaign,False
+613863,Priya,Mitchell,priya.mitchell899@outlook.com,32,Female,2023-05-16,Silver,San Jose,CA,USA,Direct,True
+321653,Mohammed,Carter,mohammed.carter176@icloud.com,45,Male,2023-05-17,Silver,Philadelphia,PA,USA,Referral,True
+696210,Amelia,Flores,amelia.flores759@hotmail.com,40,Female,2023-05-17,Bronze,Savannah,GA,USA,Referral,False
+777636,Harper,King,harper.king623@gmail.com,49,Female,2023-05-18,Silver,Seattle,WA,USA,Referral,True
+490092,Abigail,Perez,abigail.perez476@proton.me,26,Female,2023-05-19,Silver,Miami,FL,USA,Organic Search,True
+543109,Mateo,Murphy,mateo.murphy606@gmail.com,37,Male,2023-05-19,Gold,Dallas,TX,USA,Referral,True
+688412,Sophia,Anderson,sophia.anderson533@gmail.com,,Female,2023-05-29,Silver,Sacramento,CA,USA,Email Campaign,True
+804119,Scarlett,Baker,scarlett.baker515@hotmail.com,34,Female,2023-05-29,Silver,San Antonio,TX,USA,Organic Search,True
+856259,Wei,Jones,wei.jones282@yahoo.com,,Male,2023-06-05,Silver,Savannah,GA,USA,Organic Search,True
+184961,Liam,Sanchez,liam.sanchez697@gmail.com,47,Male,2023-06-06,Bronze,Sacramento,CA,USA,Paid Social,True
+253407,Ava,Wilson,ava.wilson424@gmail.com,23,Female,2023-06-08,Gold,Pittsburgh,PA,USA,Referral,False
+140279,Lucas,Brown,lucas.brown249@icloud.com,24,Male,2023-06-11,Bronze,Miami,FL,USA,Organic Search,True
+131620,Diego,Davis,diego.davis66@hotmail.com,30,Male,2023-06-12,Bronze,San Antonio,TX,USA,Organic Search,True
+216809,Alexander,Anderson,alexander.anderson885@gmail.com,34,Male,2023-06-14,Silver,Philadelphia,PA,USA,Direct,True
+490071,Abigail,Wilson,abigail.wilson927@outlook.com,31,Female,2023-06-15,Silver,Springfield,IL,USA,Paid Social,True
+355464,Charlotte,Carter,charlotte.carter593@gmail.com,40,Female,2023-06-20,Silver,Tacoma,WA,USA,Organic Search,True
+709482,Alexander,Nelson,alexander.nelson82@yahoo.com,30,Male,2023-06-21,Silver,Augusta,GA,USA,Paid Social,False
+672716,Levi,White,levi.white115@yahoo.com,60,Male,2023-06-21,Gold,Missoula,MT,USA,Email Campaign,True
+513724,Henry,Scott,henry.scott425@gmail.com,22,Male,2023-06-25,Bronze,Savannah,GA,USA,Referral,False
+639466,Arjun,Thomas,arjun.thomas514@gmail.com,26,Male,2023-06-26,Platinum,New York,NY,USA,Referral,False
+225183,Nora,Allen,nora.allen460@icloud.com,57,Female,2023-06-26,Bronze,Pittsburgh,PA,USA,Referral,True
+519251,Emma,Wilson,emma.wilson70@gmail.com,50,Female,2023-06-30,Bronze,Austin,TX,USA,Organic Search,True
+195250,Isabella,Rivera,isabella.rivera18@outlook.com,44,Female,2023-07-01,Silver,Mesa,AZ,USA,Paid Social,False
+218562,Olivia,Torres,olivia.torres271@yahoo.com,44,Female,2023-07-01,Bronze,Miami,FL,USA,Organic Search,True
+745022,Michael,Nguyen,michael.nguyen288@icloud.com,19,Male,2023-07-02,Bronze,Mississauga,ON,Canada,Direct,True
+891114,Amelia,Johnson,amelia.johnson477@outlook.com,25,Female,2023-07-03,Gold,Toronto,ON,Canada,Referral,True
+278351,Theodore,Martinez,theodore.martinez782@gmail.com,32,Male,2023-07-04,Bronze,Orlando,FL,USA,Organic Search,False
+223623,Alexander,Garcia,alexander.garcia586@gmail.com,38,Male,2023-07-06,Silver,Dallas,TX,USA,Email Campaign,False
+744762,Ravi,Khan,ravi.khan121@outlook.com,39,Male,2023-07-09,Silver,Calgary,AB,Canada,Paid Social,False
+841805,Camila,Ramirez,camila.ramirez426@gmail.com,48,Female,2023-07-10,Platinum,Surrey,BC,Canada,Organic Search,True
+972702,Carlos,Silva,carlos.silva847@gmail.com,45,Male,2023-07-10,Silver,Augusta,GA,USA,Organic Search,True
+813190,Sofia,King,,29,Female,2023-07-10,Bronze,Austin,TX,USA,Paid Social,True
+899818,Olivia,Lee,olivia.lee426@yahoo.com,27,Female,2023-07-12,Bronze,Buffalo,NY,USA,Paid Social,False
+934215,Abigail,Hernandez,abigail.hernandez781@icloud.com,46,Female,2023-07-14,Gold,Miami,FL,USA,Organic Search,False
+181067,Kenji,Wright,kenji.wright499@gmail.com,39,Male,2023-07-15,Silver,Dallas,TX,USA,Direct,True
+304009,Carlos,Nguyen,carlos.nguyen629@gmail.com,,Male,2023-07-19,Bronze,Denver,CO,USA,Organic Search,False
+522293,Henry,Brown,henry.brown659@icloud.com,54,Male,2023-07-19,Silver,Quebec City,QC,Canada,Organic Search,True
+441756,Quinn,Walker,quinn.walker617@gmail.com,37,,2023-07-22,Silver,Charlotte,NC,USA,Organic Search,True
+380845,Charlotte,Anderson,charlotte.anderson210@gmail.com,43,Female,2023-07-22,Gold,Orlando,FL,USA,Referral,False
+800045,Alexander,Campbell,alexander.campbell947@gmail.com,52,Male,2023-07-24,Silver,Ames,IA,USA,Organic Search,True
+729750,Grace,Roberts,grace.roberts636@yahoo.com,35,Female,2023-07-27,Silver,New York,NY,USA,Paid Social,True
+713630,Priya,Wilson,priya.wilson642@proton.me,,Female,2023-07-27,Bronze,Pittsburgh,PA,USA,Direct,False
+991597,Grace,Murphy,grace.murphy806@gmail.com,55,,2023-07-30,Platinum,Cleveland,OH,USA,Organic Search,True
+555403,Michael,Kim,michael.kim556@yahoo.com,19,Male,2023-07-30,Silver,San Antonio,TX,USA,Paid Social,True
+591757,Harper,Silva,harper.silva690@gmail.com,38,Female,2023-08-01,Bronze,Spokane,WA,USA,Paid Social,False
+886577,Samuel,Singh,samuel.singh611@gmail.com,47,Male,2023-08-01,Platinum,Laval,QC,Canada,Organic Search,True
+539453,Priya,Moore,priya.moore119@outlook.com,55,Female,2023-08-03,Bronze,Los Angeles,CA,USA,Paid Social,True
+792987,William,Rodriguez,william.rodriguez185@outlook.com,49,Male,2023-08-04,Bronze,Sacramento,CA,USA,Referral,True
+554361,Daniel,Perez,daniel.perez923@gmail.com,39,Male,2023-08-04,Silver,Surrey,BC,Canada,Direct,True
+895646,Mei,Nguyen,mei.nguyen370@outlook.com,35,Female,2023-08-06,Bronze,Rochester,NY,USA,Referral,True
+207289,Arjun,Mitchell,arjun.mitchell711@icloud.com,36,Male,2023-08-06,Gold,Sacramento,CA,USA,Affiliate,True
+510516,Camila,Patel,camila.patel711@gmail.com,22,Female,2023-08-08,Gold,Tucson,AZ,USA,Organic Search,False
+992550,Michael,Lee,michael.lee724@gmail.com,51,Male,2023-08-13,Bronze,Buffalo,NY,USA,Paid Social,True
+323441,Scarlett,Carter,scarlett.carter155@gmail.com,47,Female,2023-08-14,Gold,Columbus,OH,USA,Paid Social,False
+941828,Sofia,Thomas,sofia.thomas516@gmail.com,40,Female,2023-08-14,Gold,Pittsburgh,PA,USA,Organic Search,True
+815358,Kenji,Brown,kenji.brown222@gmail.com,44,Male,2023-08-15,Bronze,Vancouver,BC,Canada,Direct,False
+969092,Mohammed,Harris,mohammed.harris161@gmail.com,29,Male,2023-08-16,Silver,San Diego,CA,USA,Organic Search,True
+501972,Emma,Davis,emma.davis907@gmail.com,48,Female,2023-08-18,Silver,Cambridge,MA,USA,Paid Social,False
+549826,Jamal,Wright,jamal.wright474@outlook.com,47,Male,2023-08-20,Bronze,Cincinnati,OH,USA,Direct,True
+324341,Fatima,Martinez,fatima.martinez124@outlook.com,32,Female,2023-08-22,Bronze,Raleigh,NC,USA,Organic Search,False
+371674,Chloe,Scott,chloe.scott423@gmail.com,34,Female,2023-08-23,Silver,Surrey,BC,Canada,Organic Search,False
+163174,Theodore,Williams,theodore.williams259@gmail.com,39,Male,2023-08-25,Gold,Ottawa,ON,Canada,Referral,True
+969907,Owen,Martin,owen.martin520@gmail.com,58,Male,2023-08-27,Silver,Augusta,GA,USA,Paid Social,True
+545164,Arjun,Harris,arjun.harris205@yahoo.com,51,Male,2023-08-30,Gold,Dallas,TX,USA,Email Campaign,True
+161063,Quinn,Clark,quinn.clark817@gmail.com,51,Non-binary,2023-08-30,Gold,Rochester,NY,USA,Paid Social,False
+473913,Hannah,Martinez,hannah.martinez62@outlook.com,45,Female,2023-08-31,Bronze,Pittsburgh,PA,USA,Organic Search,True
+558329,Ella,Thomas,ella.thomas772@gmail.com,32,Female,2023-09-02,Platinum,Eugene,OR,USA,Organic Search,True
+485093,Oliver,Okafor,oliver.okafor830@gmail.com,,Male,2023-09-03,Platinum,Raleigh,NC,USA,Email Campaign,True
+823674,William,Lewis,william.lewis493@gmail.com,40,Male,2023-09-03,Bronze,New York,NY,USA,Organic Search,True
+971242,Hannah,Rivera,hannah.rivera648@gmail.com,46,Female,2023-09-05,Silver,Raleigh,NC,USA,Organic Search,False
+608344,Mia,Nguyen,mia.nguyen85@gmail.com,48,Female,2023-09-06,Silver,Philadelphia,PA,USA,Direct,True
+562599,Hannah,Cohen,hannah.cohen127@gmail.com,50,Female,2023-09-06,Platinum,Quebec City,QC,Canada,Email Campaign,True
+696462,Emily,Cohen,emily.cohen252@gmail.com,41,Female,2023-09-07,Bronze,Jacksonville,FL,USA,Direct,True
+412450,Evelyn,Perez,evelyn.perez524@outlook.com,47,Female,2023-09-07,Bronze,New York,NY,USA,Organic Search,False
+600859,Wei,Nelson,wei.nelson454@outlook.com,32,Male,2023-09-07,Bronze,Dallas,TX,USA,Paid Social,False
+763563,Isabella,Baker,isabella.baker745@hotmail.com,43,Female,2023-09-08,Silver,Cincinnati,OH,USA,Paid Social,True
+230606,Priya,Wright,priya.wright959@outlook.com,61,Female,2023-09-09,Silver,Colorado Springs,CO,USA,Email Campaign,False
+104400,Olivia,Murphy,olivia.murphy879@gmail.com,29,Female,2023-09-10,Silver,Ottawa,ON,Canada,Email Campaign,True
+111069,Ethan,Nguyen,ethan.nguyen677@gmail.com,23,Male,2023-09-11,Gold,San Diego,CA,USA,Organic Search,True
+925109,Wei,Campbell,wei.campbell121@yahoo.com,40,Male,2023-09-13,Gold,Augusta,GA,USA,Organic Search,True
+175901,Maria,Miller,maria.miller652@gmail.com,46,Female,2023-09-14,Gold,Calgary,AB,Canada,Paid Social,False
+865917,Omar,Thomas,omar.thomas667@yahoo.com,,Male,2023-09-14,Gold,Boston,MA,USA,Organic Search,True
+404287,Omar,Scott,omar.scott796@gmail.com,18,Male,2023-09-14,Bronze,Dallas,TX,USA,Paid Social,True
+475092,Aisha,Gonzalez,aisha.gonzalez797@gmail.com,25,Female,2023-09-14,Silver,Fresno,CA,USA,Organic Search,False
+353006,Priya,Tanaka,priya.tanaka846@gmail.com,38,Female,2023-09-15,Silver,Atlanta,GA,USA,Organic Search,True
+823252,Charlotte,Roberts,charlotte.roberts624@yahoo.com,33,Female,2023-09-15,Bronze,Surrey,BC,Canada,Organic Search,False
+532648,Ethan,Davis,ethan.davis102@gmail.com,39,Male,2023-09-16,Bronze,Tampa,FL,USA,Organic Search,True
+838807,Mateo,Martin,,50,Male,2023-09-17,Bronze,Los Angeles,CA,USA,Email Campaign,False
+672389,William,Miller,william.miller102@proton.me,51,Male,2023-09-17,Bronze,Atlanta,GA,USA,Paid Social,True
+831902,Lucas,Wright,lucas.wright874@gmail.com,40,Male,2023-09-23,Bronze,San Jose,CA,USA,Affiliate,True
+577420,Ella,Martin,ella.martin119@yahoo.com,25,Female,2023-09-23,Gold,Sacramento,CA,USA,Organic Search,True
+871480,Emily,Jones,emily.jones763@hotmail.com,28,Female,2023-09-25,Silver,Los Angeles,CA,USA,Direct,True
+177611,Michael,Cohen,michael.cohen701@gmail.com,44,Male,2023-09-28,Bronze,Tucson,AZ,USA,Referral,False
+597543,Mei,Williams,mei.williams567@outlook.com,43,Female,2023-09-29,Silver,San Diego,CA,USA,Paid Social,False
+588167,Liam,Thomas,liam.thomas188@icloud.com,50,Male,2023-09-30,Silver,Philadelphia,PA,USA,Organic Search,True
+343653,Liam,White,liam.white568@gmail.com,47,,2023-09-30,Silver,Seattle,WA,USA,Paid Social,True
+587094,Benjamin,Flores,benjamin.flores377@icloud.com,34,Male,2023-10-01,Platinum,Cleveland,OH,USA,Paid Social,True
+139382,Mohammed,Clark,mohammed.clark738@yahoo.com,30,Male,2023-10-01,Platinum,Cincinnati,OH,USA,Organic Search,True
+411928,Jamal,Singh,jamal.singh97@gmail.com,31,Male,2023-10-03,Silver,San Antonio,TX,USA,Paid Social,True
+675361,Olivia,Scott,olivia.scott785@icloud.com,39,,2023-10-03,Platinum,Albany,NY,USA,Direct,True
+599375,Harper,Jackson,harper.jackson985@gmail.com,26,Female,2023-10-04,Gold,Atlanta,GA,USA,Direct,False
+110880,Camila,Nelson,camila.nelson860@yahoo.com,35,Female,2023-10-09,Bronze,Augusta,GA,USA,Paid Social,True
+805875,Jack,Thomas,jack.thomas429@proton.me,32,Male,2023-10-11,Platinum,Pittsburgh,PA,USA,Paid Social,True
+146744,Scarlett,Mitchell,scarlett.mitchell196@gmail.com,33,Female,2023-10-14,Platinum,Miami,FL,USA,Organic Search,False
+835191,William,Hernandez,william.hernandez326@gmail.com,49,Male,2023-10-15,Bronze,Jacksonville,FL,USA,Organic Search,True
+371751,Theodore,Lopez,theodore.lopez502@outlook.com,18,Male,2023-10-16,Silver,Los Angeles,CA,USA,Direct,True
+476978,Noah,Patel,noah.patel604@gmail.com,41,Male,2023-10-17,Gold,Cedar Rapids,IA,USA,Organic Search,True
+579266,Arjun,Scott,arjun.scott491@gmail.com,23,Male,2023-10-18,Silver,Austin,TX,USA,Paid Social,False
+820544,Owen,Mitchell,owen.mitchell3@yahoo.com,75,Male,2023-10-21,Bronze,Toronto,ON,Canada,Email Campaign,False
+378753,Sophia,Wright,sophia.wright768@outlook.com,36,Female,2023-10-21,Silver,San Antonio,TX,USA,Email Campaign,False
+645241,Samuel,Murphy,samuel.murphy410@yahoo.com,54,Male,2023-10-22,Silver,Springfield,IL,USA,Affiliate,True
+122576,Ava,Adams,ava.adams946@yahoo.com,18,Female,2023-10-24,Bronze,Toronto,ON,Canada,Direct,False
+963728,Daniel,Brown,daniel.brown79@gmail.com,28,Male,2023-10-26,Silver,Fresno,CA,USA,Affiliate,True
+974276,Fatima,Young,fatima.young423@gmail.com,39,Female,2023-10-27,Silver,Raleigh,NC,USA,Paid Social,True
+154996,Mateo,Nguyen,mateo.nguyen7@gmail.com,34,Male,2023-10-29,Silver,Buffalo,NY,USA,Email Campaign,True
+597562,Samuel,Silva,samuel.silva918@yahoo.com,49,Male,2023-10-29,Gold,Raleigh,NC,USA,Email Campaign,False
+827383,Mateo,Singh,mateo.singh176@gmail.com,50,Male,2023-10-31,Silver,Philadelphia,PA,USA,Paid Social,True
+508791,Rowan,King,rowan.king21@outlook.com,,Non-binary,2023-11-01,Bronze,Edmonton,AB,Canada,Paid Social,True
+226095,Liam,Carter,liam.carter661@gmail.com,50,Male,2023-11-01,Gold,Augusta,GA,USA,Paid Social,False
+801631,Theodore,Perez,theodore.perez93@gmail.com,39,Male,2023-11-04,Bronze,Quebec City,QC,Canada,Affiliate,True
+969853,Theodore,Ramirez,theodore.ramirez245@gmail.com,45,Male,2023-11-04,Bronze,Colorado Springs,CO,USA,Paid Social,True
+610234,Mohammed,Allen,mohammed.allen723@gmail.com,35,Male,2023-11-05,Bronze,Portland,OR,USA,Direct,False
+962763,Quinn,Young,quinn.young275@outlook.com,48,Non-binary,2023-11-06,Silver,Naperville,IL,USA,Organic Search,False
+864202,Henry,Mitchell,henry.mitchell849@icloud.com,61,Male,2023-11-06,Bronze,Worcester,MA,USA,Referral,False
+307037,Layla,Ramirez,layla.ramirez224@hotmail.com,28,Female,2023-11-07,Gold,Tacoma,WA,USA,Organic Search,True
+158414,Wei,Flores,wei.flores160@gmail.com,18,Male,2023-11-07,Silver,Raleigh,NC,USA,Paid Social,True
+281122,Noah,Garcia,noah.garcia607@gmail.com,43,Male,2023-11-10,Gold,Austin,TX,USA,Referral,True
+129133,Harper,Davis,harper.davis195@gmail.com,30,Female,2023-11-11,Bronze,Cedar Rapids,IA,USA,Organic Search,True
+107065,Levi,Miller,levi.miller510@outlook.com,37,Male,2023-11-11,Platinum,Portland,OR,USA,Paid Social,True
+976981,Mei,Jones,mei.jones403@yahoo.com,35,Female,2023-11-15,Platinum,San Diego,CA,USA,Affiliate,True
+343412,Fatima,Allen,fatima.allen757@gmail.com,37,Female,2023-11-15,Bronze,Dallas,TX,USA,Affiliate,True
+427170,Ethan,Miller,ethan.miller134@icloud.com,42,Male,2023-11-16,Gold,Laval,QC,Canada,Paid Social,True
+368724,Emily,Young,emily.young833@gmail.com,60,Female,2023-11-16,Bronze,Los Angeles,CA,USA,Organic Search,False
+358977,Ella,Nguyen,ella.nguyen477@gmail.com,62,Female,2023-11-16,Bronze,Dallas,TX,USA,Organic Search,True
+171266,Benjamin,Perez,benjamin.perez386@yahoo.com,44,Male,2023-11-16,Silver,Austin,TX,USA,Referral,True
+720160,Arjun,Clark,arjun.clark563@outlook.com,35,Male,2023-11-16,Bronze,San Diego,CA,USA,Affiliate,True
+322933,Carlos,Jackson,carlos.jackson635@gmail.com,35,Male,2023-11-17,Bronze,Toronto,ON,Canada,Affiliate,True
+276672,Isabella,Wilson,,,Female,2023-11-17,Gold,Portland,OR,USA,Affiliate,True
+615020,Benjamin,Baker,benjamin.baker680@gmail.com,46,Male,2023-11-21,Silver,Salem,OR,USA,Paid Social,True
+770578,William,Mitchell,william.mitchell743@gmail.com,43,Male,2023-11-22,Bronze,Phoenix,AZ,USA,Referral,True
+176016,Mateo,Nguyen,mateo.nguyen768@hotmail.com,18,Male,2023-11-23,Gold,Houston,TX,USA,Direct,True
+171208,Omar,Flores,omar.flores972@gmail.com,56,Male,2023-11-24,Silver,Sacramento,CA,USA,Organic Search,True
+561465,Benjamin,Hill,benjamin.hill394@gmail.com,57,Male,2023-11-26,Silver,Spokane,WA,USA,Referral,False
+309225,Ella,Davis,ella.davis711@gmail.com,43,Female,2023-11-29,Bronze,Rochester,NY,USA,Email Campaign,True
+784275,Oliver,Cohen,oliver.cohen935@gmail.com,35,Male,2023-11-29,Platinum,Durham,NC,USA,Direct,True
+504905,Chloe,Flores,chloe.flores934@icloud.com,41,Female,2023-12-01,Bronze,Naperville,IL,USA,Organic Search,True
+217877,Isabella,Wilson,isabella.wilson607@gmail.com,40,Female,2023-12-01,Bronze,Dallas,TX,USA,Referral,False
+554015,Layla,Wright,layla.wright329@gmail.com,51,Female,2023-12-04,Silver,Naperville,IL,USA,Paid Social,False
+903533,Owen,Flores,owen.flores381@outlook.com,39,Male,2023-12-04,Gold,Tampa,FL,USA,Referral,True
+320716,Henry,Lee,henry.lee785@icloud.com,44,Male,2023-12-05,Bronze,Boulder,CO,USA,Referral,False
+956946,Samuel,Patel,samuel.patel950@gmail.com,50,Male,2023-12-05,Bronze,San Diego,CA,USA,Referral,True
+233585,Levi,Carter,levi.carter338@yahoo.com,24,Male,2023-12-07,Silver,Jacksonville,FL,USA,Direct,True
+981896,Ella,Hall,ella.hall774@yahoo.com,45,Female,2023-12-07,Gold,Seattle,WA,USA,Direct,True
+275250,Evelyn,Hernandez,evelyn.hernandez486@yahoo.com,28,Female,2023-12-08,Gold,Victoria,BC,Canada,Organic Search,True
+578842,Riley,Rivera,riley.rivera403@outlook.com,28,Non-binary,2023-12-08,Bronze,Tampa,FL,USA,Email Campaign,False
+395408,Lily,Scott,lily.scott41@yahoo.com,26,Female,2023-12-10,Silver,Tampa,FL,USA,Organic Search,True
+976013,Grace,Perez,grace.perez181@proton.me,47,Female,2023-12-11,Silver,New York,NY,USA,Referral,False
+756542,Evelyn,Murphy,evelyn.murphy928@gmail.com,30,Female,2023-12-12,Silver,San Antonio,TX,USA,Organic Search,False
+498380,Aisha,Clark,aisha.clark894@gmail.com,54,Female,2023-12-15,Platinum,Buffalo,NY,USA,Direct,False
+712336,Kenji,Rivera,kenji.rivera218@outlook.com,19,Male,2023-12-16,Silver,San Diego,CA,USA,Organic Search,True
+369772,Oliver,Young,oliver.young228@outlook.com,40,Male,2023-12-19,Bronze,Cleveland,OH,USA,Referral,False
+177265,Samuel,Green,samuel.green174@icloud.com,33,Male,2023-12-19,Bronze,Augusta,GA,USA,Organic Search,True
+964938,Theodore,Anderson,theodore.anderson122@hotmail.com,30,Male,2023-12-21,Bronze,Tampa,FL,USA,Organic Search,False
+789127,Camila,Anderson,camila.anderson697@gmail.com,41,Female,2023-12-22,Bronze,San Jose,CA,USA,Email Campaign,True
+794324,Ava,Martin,ava.martin183@gmail.com,21,Female,2023-12-22,Silver,Houston,TX,USA,Email Campaign,True
+106365,Grace,Clark,grace.clark292@hotmail.com,39,Female,2023-12-28,Silver,Pittsburgh,PA,USA,Referral,True
+191462,Harper,Harris,harper.harris70@gmail.com,51,Female,2023-12-29,Bronze,Jacksonville,FL,USA,Paid Social,True
+384588,Morgan,Allen,morgan.allen44@gmail.com,42,Non-binary,2024-01-04,Gold,Philadelphia,PA,USA,Direct,True
+375124,Mia,Hall,mia.hall290@gmail.com,37,Female,2024-01-04,Platinum,Portland,OR,USA,Referral,False
+339715,Liam,Nguyen,liam.nguyen557@yahoo.com,46,Male,2024-01-05,Silver,Miami,FL,USA,Paid Social,True
+687180,Layla,Rivera,layla.rivera139@gmail.com,54,Female,2024-01-06,Platinum,Fresno,CA,USA,Organic Search,False
+196893,Arjun,Singh,arjun.singh243@icloud.com,46,Male,2024-01-06,Gold,Sacramento,CA,USA,Paid Social,False
+237862,Mohammed,Allen,mohammed.allen956@gmail.com,26,Male,2024-01-07,Bronze,Austin,TX,USA,Organic Search,False
+512600,Olivia,Carter,olivia.carter125@yahoo.com,45,Female,2024-01-07,Platinum,Denver,CO,USA,Direct,False
+421903,Mohammed,Hall,mohammed.hall988@yahoo.com,39,Male,2024-01-09,Gold,Victoria,BC,Canada,Organic Search,True
+660874,Levi,Patel,levi.patel243@yahoo.com,30,Male,2024-01-09,Gold,Miami,FL,USA,Direct,True
+737807,Zoe,Chen,zoe.chen530@gmail.com,41,Female,2024-01-10,Bronze,San Antonio,TX,USA,Organic Search,True
+934285,Lucas,Jones,lucas.jones884@icloud.com,32,Male,2024-01-11,Bronze,Austin,TX,USA,Organic Search,True
+622670,Wei,Jackson,,30,Male,2024-01-11,Silver,Houston,TX,USA,Email Campaign,True
+962689,Jack,Murphy,jack.murphy312@icloud.com,44,Male,2024-01-14,Gold,Quebec City,QC,Canada,Paid Social,True
+384136,Levi,Davis,levi.davis702@yahoo.com,37,Male,2024-01-14,Bronze,Worcester,MA,USA,Organic Search,False
+653199,Chloe,Hernandez,chloe.hernandez776@yahoo.com,41,Female,2024-01-16,Bronze,Naperville,IL,USA,Referral,False
+652740,Quinn,Martin,quinn.martin885@gmail.com,41,Non-binary,2024-01-18,Silver,Colorado Springs,CO,USA,Paid Social,True
+262514,Olivia,King,olivia.king639@icloud.com,40,Female,2024-01-18,Bronze,Seattle,WA,USA,Organic Search,True
+168637,Sophia,Jackson,sophia.jackson588@yahoo.com,31,Female,2024-01-18,Gold,Atlanta,GA,USA,Paid Social,True
+250136,Evelyn,Torres,evelyn.torres516@gmail.com,46,Female,2024-01-20,Silver,San Antonio,TX,USA,Paid Social,False
+761075,Alexander,Anderson,alexander.anderson940@yahoo.com,27,Male,2024-01-21,Bronze,Denver,CO,USA,Email Campaign,True
+953630,Priya,Nguyen,priya.nguyen309@icloud.com,37,Female,2024-01-21,Silver,Los Angeles,CA,USA,Paid Social,False
+916997,Priya,Nelson,priya.nelson61@gmail.com,42,Female,2024-01-23,Gold,Philadelphia,PA,USA,Organic Search,False
+388184,Daniel,Nelson,daniel.nelson139@gmail.com,34,Male,2024-01-23,Platinum,Cleveland,OH,USA,Referral,True
+932844,Olivia,Taylor,olivia.taylor815@gmail.com,46,Female,2024-01-25,Bronze,Ottawa,ON,Canada,Organic Search,True
+206604,Theodore,Lee,theodore.lee777@hotmail.com,40,Male,2024-01-28,Bronze,Albany,NY,USA,Email Campaign,True
+964928,Michael,Adams,michael.adams102@gmail.com,49,Male,2024-01-30,Bronze,Colorado Springs,CO,USA,Email Campaign,True
+206905,Ethan,Johnson,ethan.johnson772@gmail.com,49,Male,2024-02-02,Silver,Orlando,FL,USA,Organic Search,True
+401814,Lily,Harris,lily.harris709@gmail.com,54,Female,2024-02-02,Bronze,Tucson,AZ,USA,Organic Search,True
+750600,Mia,Green,mia.green935@gmail.com,72,Female,2024-02-04,Bronze,Denver,CO,USA,Paid Social,True
+315385,Carlos,Clark,carlos.clark241@gmail.com,32,Male,2024-02-04,Bronze,Portland,OR,USA,Referral,False
+383787,Noah,Roberts,noah.roberts728@gmail.com,46,Male,2024-02-05,Bronze,Buffalo,NY,USA,Organic Search,False
+880311,Abigail,King,abigail.king933@gmail.com,32,Female,2024-02-08,Gold,San Jose,CA,USA,Direct,False
+398178,Theodore,Scott,theodore.scott550@gmail.com,54,Male,2024-02-08,Bronze,Buffalo,NY,USA,Email Campaign,True
+636121,Fatima,Scott,fatima.scott574@icloud.com,50,,2024-02-09,Gold,Jacksonville,FL,USA,Organic Search,False
+312650,Oliver,Khan,oliver.khan914@gmail.com,,Male,2024-02-09,Silver,Seattle,WA,USA,Referral,False
+860305,Evelyn,Brown,evelyn.brown135@yahoo.com,26,,2024-02-10,Silver,Colorado Springs,CO,USA,Organic Search,False
+494006,Hannah,Garcia,hannah.garcia368@gmail.com,45,Female,2024-02-10,Silver,Austin,TX,USA,Direct,True
+842689,Emma,Torres,emma.torres558@yahoo.com,48,Female,2024-02-10,Silver,Cedar Rapids,IA,USA,Direct,False
+800786,Oliver,Rodriguez,oliver.rodriguez326@gmail.com,30,Male,2024-02-11,Silver,Atlanta,GA,USA,Organic Search,False
+670538,Mia,Kim,mia.kim583@gmail.com,30,Female,2024-02-13,Silver,Dallas,TX,USA,Organic Search,True
+805608,Theodore,Baker,theodore.baker390@yahoo.com,47,Male,2024-02-14,Bronze,Tampa,FL,USA,Organic Search,True
+463607,Mei,Lopez,mei.lopez115@gmail.com,43,,2024-02-14,Gold,Cambridge,MA,USA,Referral,False
+771048,Ella,Garcia,ella.garcia594@icloud.com,57,,2024-02-15,Silver,Augusta,GA,USA,Paid Social,False
+436577,Grace,Martin,grace.martin130@icloud.com,27,Female,2024-02-16,Silver,Rochester,NY,USA,Referral,False
+631392,Sophia,Sanchez,sophia.sanchez310@gmail.com,33,Female,2024-02-19,Bronze,Albany,NY,USA,Organic Search,True
+805420,Theodore,Kim,theodore.kim43@gmail.com,53,Male,2024-02-22,Bronze,Toronto,ON,Canada,Paid Social,False
+729598,Camila,Allen,camila.allen421@outlook.com,29,Female,2024-02-23,Bronze,Austin,TX,USA,Organic Search,False
+654971,Liam,Murphy,liam.murphy1@gmail.com,18,Male,2024-02-24,Gold,Jacksonville,FL,USA,Organic Search,True
+669409,Chloe,Green,chloe.green414@yahoo.com,24,Female,2024-02-25,Platinum,Augusta,GA,USA,Referral,True
+133646,Evelyn,Clark,evelyn.clark917@outlook.com,22,Female,2024-02-27,Bronze,Los Angeles,CA,USA,Paid Social,False
+381636,Evelyn,Harris,evelyn.harris848@gmail.com,44,Female,2024-02-28,Bronze,Tucson,AZ,USA,Affiliate,False
+379154,Omar,Smith,omar.smith790@gmail.com,,Male,2024-02-29,Silver,Salem,OR,USA,Paid Social,True
+508282,Theodore,Scott,theodore.scott407@icloud.com,34,Male,2024-02-29,Bronze,Allentown,PA,USA,Paid Social,True
+236956,Sofia,Murphy,sofia.murphy608@gmail.com,40,Female,2024-03-01,Silver,Surrey,BC,Canada,Email Campaign,True
+721746,Omar,Flores,omar.flores741@gmail.com,42,Male,2024-03-02,Gold,Ottawa,ON,Canada,Paid Social,True
+119888,Mia,Mitchell,mia.mitchell813@yahoo.com,34,Female,2024-03-03,Bronze,Mississauga,ON,Canada,Direct,True
+631762,Morgan,Young,morgan.young31@outlook.com,51,Non-binary,2024-03-05,Gold,Chicago,IL,USA,Direct,True
+306555,Carlos,Patel,carlos.patel689@hotmail.com,53,Male,2024-03-07,Gold,Jacksonville,FL,USA,Paid Social,False
+931820,Wei,Hernandez,wei.hernandez206@hotmail.com,43,Male,2024-03-07,Bronze,Mesa,AZ,USA,Organic Search,False
+843085,Arjun,Campbell,arjun.campbell94@gmail.com,21,Male,2024-03-14,Bronze,Dallas,TX,USA,Organic Search,False
+114172,Liam,Allen,liam.allen511@yahoo.com,35,Male,2024-03-14,Gold,Los Angeles,CA,USA,Referral,False
+128700,Lucas,Rivera,lucas.rivera928@hotmail.com,43,Male,2024-03-14,Silver,Tucson,AZ,USA,Paid Social,False
+688461,Mateo,Hernandez,mateo.hernandez485@yahoo.com,30,Male,2024-03-16,Silver,Allentown,PA,USA,Referral,False
+357644,Mia,Wilson,mia.wilson726@outlook.com,24,Female,2024-03-17,Gold,Quebec City,QC,Canada,Affiliate,True
+599589,Avery,Green,avery.green552@gmail.com,39,Non-binary,2024-03-17,Gold,Chicago,IL,USA,Organic Search,True
+622524,Aisha,Gonzalez,aisha.gonzalez11@gmail.com,35,Female,2024-03-19,Silver,Austin,TX,USA,Paid Social,True
+750844,Camila,Nguyen,camila.nguyen381@gmail.com,33,Female,2024-03-22,Bronze,Portland,OR,USA,Direct,False
+367081,Jack,Martinez,jack.martinez994@gmail.com,52,Male,2024-03-23,Gold,Jacksonville,FL,USA,Affiliate,True
+149044,Mateo,White,mateo.white463@outlook.com,18,Male,2024-03-23,Bronze,Dallas,TX,USA,Direct,True
+942552,Elijah,Hill,elijah.hill788@icloud.com,46,Male,2024-03-25,Bronze,Columbus,OH,USA,Organic Search,True
+388393,Emma,Adams,emma.adams895@outlook.com,40,Female,2024-03-26,Bronze,Augusta,GA,USA,Affiliate,False
+726518,Priya,Cohen,priya.cohen197@gmail.com,50,Female,2024-03-31,Bronze,Orlando,FL,USA,Affiliate,False
+923309,Mohammed,Walker,mohammed.walker223@gmail.com,36,Male,2024-04-01,Silver,Buffalo,NY,USA,Direct,True
+491299,Lily,Roberts,lily.roberts761@gmail.com,54,Female,2024-04-03,Platinum,Buffalo,NY,USA,Referral,True
+292942,Olivia,Nguyen,olivia.nguyen221@gmail.com,45,Female,2024-04-05,Silver,Boston,MA,USA,Paid Social,True
+585788,Chloe,Nguyen,chloe.nguyen533@gmail.com,35,Female,2024-04-05,Gold,Pittsburgh,PA,USA,Organic Search,False
+366709,Noah,Williams,noah.williams937@gmail.com,22,Male,2024-04-07,Silver,Portland,OR,USA,Email Campaign,True
+433068,Layla,Allen,layla.allen258@gmail.com,44,Female,2024-04-10,Bronze,Denver,CO,USA,Organic Search,True
+570241,Lily,Tanaka,lily.tanaka82@outlook.com,45,Female,2024-04-11,Silver,Los Angeles,CA,USA,Referral,False
+324723,Olivia,Okafor,olivia.okafor336@yahoo.com,40,Female,2024-04-14,Bronze,Worcester,MA,USA,Organic Search,False
+816445,Levi,Lewis,levi.lewis677@outlook.com,51,Male,2024-04-15,Bronze,Cincinnati,OH,USA,Referral,True
+490518,Evelyn,Perez,evelyn.perez864@outlook.com,46,Female,2024-04-16,Silver,Toronto,ON,Canada,Paid Social,True
+684998,Emma,Rodriguez,,32,Female,2024-04-16,Bronze,Durham,NC,USA,Referral,True
+954195,Sophia,Silva,sophia.silva756@outlook.com,27,Female,2024-04-16,Bronze,Rochester,NY,USA,Paid Social,True
+870294,Camila,Khan,camila.khan622@gmail.com,33,Female,2024-04-21,Bronze,Orlando,FL,USA,Email Campaign,True
+116154,Sofia,Garcia,sofia.garcia185@gmail.com,40,Female,2024-04-23,Bronze,Allentown,PA,USA,Email Campaign,True
+185715,Wei,Roberts,wei.roberts719@icloud.com,59,Male,2024-04-23,Silver,Tampa,FL,USA,Organic Search,True
+586006,Kenji,Lewis,kenji.lewis268@outlook.com,55,Male,2024-04-24,Silver,San Diego,CA,USA,Direct,True
+645105,Kenji,Taylor,kenji.taylor689@gmail.com,43,Male,2024-04-24,Bronze,Sacramento,CA,USA,Referral,True
+922292,Taylor,Ramirez,taylor.ramirez181@icloud.com,18,Non-binary,2024-04-26,Bronze,Phoenix,AZ,USA,Paid Social,False
+933360,Michael,White,michael.white972@yahoo.com,36,Male,2024-04-26,Silver,San Jose,CA,USA,Paid Social,True
+937853,Theodore,Lee,theodore.lee132@icloud.com,22,Male,2024-04-27,Silver,Buffalo,NY,USA,Organic Search,True
+591794,Quinn,Lopez,quinn.lopez38@gmail.com,26,Non-binary,2024-04-27,Bronze,New York,NY,USA,Organic Search,False
+258357,Sophia,Lewis,sophia.lewis807@outlook.com,27,Female,2024-04-27,Bronze,Pittsburgh,PA,USA,Organic Search,False
+863407,Elijah,Kowalski,elijah.kowalski924@gmail.com,52,Male,2024-04-28,Gold,Atlanta,GA,USA,Organic Search,False
+106619,Grace,Silva,grace.silva873@yahoo.com,47,Female,2024-04-29,Bronze,Pittsburgh,PA,USA,Affiliate,True
+232968,Ravi,Johnson,ravi.johnson2@gmail.com,45,Male,2024-04-30,Gold,Colorado Springs,CO,USA,Paid Social,False
+939226,Emily,Lewis,emily.lewis900@yahoo.com,48,Female,2024-05-01,Platinum,San Antonio,TX,USA,Organic Search,True
+773268,Amelia,Walker,amelia.walker961@gmail.com,51,Female,2024-05-02,Bronze,New York,NY,USA,Email Campaign,True
+858871,Arjun,Gonzalez,arjun.gonzalez496@outlook.com,51,Male,2024-05-02,Platinum,Boston,MA,USA,Paid Social,False
+937948,Noah,Mitchell,noah.mitchell173@icloud.com,28,Male,2024-05-07,Bronze,Orlando,FL,USA,Email Campaign,False
+746966,Levi,Gonzalez,levi.gonzalez908@outlook.com,22,Male,2024-05-07,Platinum,Spokane,WA,USA,Direct,True
+786082,Evelyn,Johnson,evelyn.johnson55@yahoo.com,36,Female,2024-05-08,Bronze,Mississauga,ON,Canada,Paid Social,False
+953017,Mohammed,Patel,,37,Male,2024-05-08,Bronze,Rochester,NY,USA,Email Campaign,True
+981940,Liam,Okafor,liam.okafor722@gmail.com,54,Male,2024-05-08,Silver,Boulder,CO,USA,Paid Social,True
+738837,Ava,Harris,ava.harris984@gmail.com,22,Female,2024-05-10,Silver,Sacramento,CA,USA,Organic Search,True
+754765,Harper,Kim,harper.kim526@gmail.com,19,Female,2024-05-12,Bronze,Atlanta,GA,USA,Referral,True
+229416,Sofia,Brown,sofia.brown518@gmail.com,41,Female,2024-05-13,Bronze,Dallas,TX,USA,Direct,False
+490207,Mohammed,Smith,mohammed.smith912@gmail.com,35,Male,2024-05-13,Bronze,Miami,FL,USA,Organic Search,False
+516217,Noah,Thomas,noah.thomas336@gmail.com,22,Male,2024-05-14,Gold,Durham,NC,USA,Organic Search,True
+819093,Theodore,Perez,theodore.perez608@gmail.com,34,Male,2024-05-14,Bronze,Miami,FL,USA,Paid Social,False
+659482,Chloe,Clark,chloe.clark719@proton.me,61,Female,2024-05-14,Bronze,Phoenix,AZ,USA,Organic Search,True
+209703,Michael,Patel,michael.patel518@gmail.com,58,,2024-05-15,Bronze,Fresno,CA,USA,Organic Search,True
+826889,Nora,Hernandez,nora.hernandez244@gmail.com,18,Female,2024-05-17,Silver,Fresno,CA,USA,Email Campaign,False
+350254,Abigail,Brown,abigail.brown662@gmail.com,52,Female,2024-05-17,Gold,Albany,NY,USA,Direct,False
+408428,James,Martin,james.martin415@hotmail.com,45,Male,2024-05-18,Bronze,Billings,MT,USA,Organic Search,True
+172737,Camila,Rodriguez,camila.rodriguez393@hotmail.com,43,Female,2024-05-18,Silver,Raleigh,NC,USA,Referral,True
+185515,Ethan,Mitchell,ethan.mitchell497@gmail.com,45,Male,2024-05-19,Bronze,San Diego,CA,USA,Direct,True
+258987,Lily,Moore,lily.moore802@gmail.com,45,Female,2024-05-19,Bronze,Allentown,PA,USA,Paid Social,True
+180968,Emma,Thompson,emma.thompson261@outlook.com,38,Female,2024-05-20,Bronze,Miami,FL,USA,Paid Social,False
+373292,Jamal,Martinez,jamal.martinez573@gmail.com,38,Male,2024-05-21,Silver,Ames,IA,USA,Referral,True
+568238,Amelia,Scott,amelia.scott864@gmail.com,26,Female,2024-05-26,Gold,Springfield,IL,USA,Organic Search,True
+494553,Ava,Lopez,ava.lopez920@outlook.com,30,Female,2024-05-27,Silver,Naperville,IL,USA,Paid Social,False
+400186,Henry,Kowalski,henry.kowalski570@gmail.com,38,,2024-05-28,Bronze,Sacramento,CA,USA,Organic Search,True
+483080,Daniel,Jackson,daniel.jackson629@yahoo.com,44,Male,2024-05-29,Gold,Los Angeles,CA,USA,Referral,False
+649861,Sam,Anderson,sam.anderson563@outlook.com,46,Non-binary,2024-06-03,Gold,Charlotte,NC,USA,Paid Social,True
+220678,Jamal,Adams,jamal.adams201@icloud.com,35,Male,2024-06-04,Silver,New York,NY,USA,Affiliate,True
+871884,Mei,White,mei.white617@hotmail.com,46,Female,2024-06-06,Gold,Cincinnati,OH,USA,Email Campaign,True
+902958,Maria,Carter,maria.carter512@outlook.com,34,Female,2024-06-07,Gold,San Antonio,TX,USA,Referral,True
+725086,Jordan,Johnson,jordan.johnson30@gmail.com,20,Non-binary,2024-06-11,Silver,Des Moines,IA,USA,Organic Search,True
+258959,Emily,Adams,emily.adams52@gmail.com,55,Female,2024-06-11,Silver,Jacksonville,FL,USA,Paid Social,False
+823557,Rowan,Thomas,rowan.thomas446@outlook.com,18,Non-binary,2024-06-12,Silver,Rochester,NY,USA,Organic Search,True
+329012,Mia,Okafor,mia.okafor773@gmail.com,18,Female,2024-06-12,Platinum,Los Angeles,CA,USA,Email Campaign,True
+146484,Isabella,Perez,isabella.perez785@gmail.com,36,Female,2024-06-15,Platinum,Phoenix,AZ,USA,Organic Search,True
+907466,Aisha,Martinez,aisha.martinez651@yahoo.com,29,Female,2024-06-17,Platinum,Cincinnati,OH,USA,Referral,False
+944245,Evelyn,Hill,evelyn.hill72@gmail.com,45,Female,2024-06-18,Bronze,Jacksonville,FL,USA,Organic Search,True
+281969,Kenji,Thomas,kenji.thomas242@gmail.com,47,Male,2024-06-18,Silver,San Jose,CA,USA,Paid Social,True
+451759,Carlos,Rivera,carlos.rivera634@gmail.com,42,Male,2024-06-20,Bronze,Orlando,FL,USA,Referral,True
+743458,Evelyn,Moore,evelyn.moore509@gmail.com,42,Female,2024-06-20,Gold,Phoenix,AZ,USA,Affiliate,False
+823500,Jamal,Mitchell,jamal.mitchell933@yahoo.com,51,Male,2024-06-20,Bronze,Tucson,AZ,USA,Paid Social,True
+989987,Benjamin,Silva,benjamin.silva597@outlook.com,34,Male,2024-06-21,Silver,Dallas,TX,USA,Organic Search,True
+761155,Samuel,Wright,samuel.wright132@outlook.com,37,Male,2024-06-21,Gold,Houston,TX,USA,Affiliate,True
+971282,Levi,King,levi.king162@gmail.com,40,Male,2024-06-22,Gold,Sacramento,CA,USA,Organic Search,True
+178814,Camila,Chen,camila.chen614@outlook.com,37,Female,2024-06-25,Gold,Boston,MA,USA,Referral,True
+731789,Fatima,Kim,fatima.kim946@gmail.com,38,,2024-06-29,Silver,Colorado Springs,CO,USA,Email Campaign,True
+263269,Omar,Robinson,omar.robinson604@hotmail.com,57,Male,2024-06-29,Bronze,Miami,FL,USA,Paid Social,False
+374219,Casey,Sanchez,casey.sanchez997@proton.me,20,Non-binary,2024-06-30,Silver,Tampa,FL,USA,Organic Search,True
+467326,Lily,Moore,lily.moore147@gmail.com,22,Female,2024-07-02,Silver,Surrey,BC,Canada,Direct,True
+587634,Amelia,Thompson,amelia.thompson512@outlook.com,27,Female,2024-07-04,Silver,Charlotte,NC,USA,Organic Search,True
+671139,Evelyn,Singh,evelyn.singh771@gmail.com,47,Female,2024-07-05,Platinum,Des Moines,IA,USA,Email Campaign,False
+848647,James,Harris,james.harris103@gmail.com,36,Male,2024-07-09,Bronze,San Jose,CA,USA,Email Campaign,False
+503850,Emma,Allen,emma.allen683@gmail.com,61,,2024-07-10,Bronze,Austin,TX,USA,Paid Social,True
+943477,Nora,Garcia,nora.garcia626@gmail.com,35,Female,2024-07-12,Bronze,Miami,FL,USA,Referral,False
+806684,Camila,Lee,camila.lee191@yahoo.com,44,Female,2024-07-12,Silver,Los Angeles,CA,USA,Paid Social,True
+520059,Henry,White,henry.white183@icloud.com,51,Male,2024-07-12,Bronze,Los Angeles,CA,USA,Referral,False
+192985,Owen,Rivera,owen.rivera145@gmail.com,41,Male,2024-07-13,Bronze,Atlanta,GA,USA,Organic Search,True
+794792,Mia,Chen,mia.chen205@gmail.com,50,Female,2024-07-14,Bronze,Colorado Springs,CO,USA,Paid Social,True
+368795,Mia,Martinez,mia.martinez650@icloud.com,33,Female,2024-07-15,Platinum,Houston,TX,USA,Affiliate,True
+152422,Noah,Johnson,noah.johnson616@yahoo.com,37,Male,2024-07-15,Gold,Portland,OR,USA,Referral,True
+638422,Emma,Perez,emma.perez229@outlook.com,51,Female,2024-07-16,Bronze,Orlando,FL,USA,Affiliate,True
+116043,Alexander,Mitchell,alexander.mitchell204@outlook.com,37,Male,2024-07-17,Gold,Austin,TX,USA,Email Campaign,False
+189160,Jamal,Hernandez,jamal.hernandez180@outlook.com,60,Male,2024-07-17,Bronze,Allentown,PA,USA,Paid Social,False
+903816,Olivia,Nguyen,olivia.nguyen796@gmail.com,50,Female,2024-07-19,Bronze,Orlando,FL,USA,Organic Search,False
+867333,Aisha,Gonzalez,aisha.gonzalez293@gmail.com,26,Female,2024-07-22,Bronze,New York,NY,USA,Organic Search,True
+673227,Elijah,Lewis,elijah.lewis599@yahoo.com,29,Male,2024-07-24,Gold,San Jose,CA,USA,Referral,True
+360723,Emma,Kowalski,emma.kowalski310@gmail.com,18,Female,2024-07-26,Platinum,Salem,OR,USA,Referral,True
+666211,Aisha,Cohen,aisha.cohen609@gmail.com,48,Female,2024-07-26,Bronze,Tampa,FL,USA,Organic Search,False
+352917,Mei,Mitchell,mei.mitchell962@outlook.com,33,Female,2024-07-27,Gold,Los Angeles,CA,USA,Email Campaign,False
+218848,Lucas,Wright,lucas.wright867@outlook.com,58,Male,2024-07-27,Platinum,New York,NY,USA,Organic Search,True
+809484,Kenji,Roberts,kenji.roberts829@icloud.com,26,Male,2024-07-27,Silver,Cincinnati,OH,USA,Organic Search,False
+748905,Mia,Wright,mia.wright396@gmail.com,32,Female,2024-07-28,Silver,Columbus,OH,USA,Email Campaign,False
+670929,Oliver,Scott,oliver.scott985@gmail.com,44,Male,2024-07-31,Bronze,Houston,TX,USA,Organic Search,False
+104925,Owen,Sanchez,owen.sanchez724@gmail.com,34,Male,2024-08-04,Silver,Cleveland,OH,USA,Paid Social,True
+160837,Alexander,Allen,alexander.allen332@icloud.com,18,Male,2024-08-07,Silver,New York,NY,USA,Email Campaign,True
+454091,James,Silva,james.silva957@gmail.com,44,Male,2024-08-07,Bronze,Rochester,NY,USA,Organic Search,True
+444895,Amelia,Lee,amelia.lee903@yahoo.com,34,Female,2024-08-09,Gold,Boston,MA,USA,Email Campaign,True
+593374,Owen,Martin,owen.martin151@yahoo.com,38,Male,2024-08-10,Silver,Ottawa,ON,Canada,Organic Search,True
+461781,Mia,Garcia,mia.garcia777@yahoo.com,51,Female,2024-08-11,Bronze,Tampa,FL,USA,Direct,False
+361634,Emma,Nelson,emma.nelson880@outlook.com,34,Female,2024-08-13,Bronze,Dallas,TX,USA,Affiliate,False
+764215,Samuel,Martin,samuel.martin404@yahoo.com,40,Male,2024-08-14,Silver,Phoenix,AZ,USA,Direct,False
+951134,Morgan,Lopez,morgan.lopez635@icloud.com,24,Non-binary,2024-08-16,Silver,Vancouver,BC,Canada,Email Campaign,False
+869377,Theodore,Allen,theodore.allen279@gmail.com,19,Male,2024-08-23,Bronze,Seattle,WA,USA,Organic Search,True
+497994,Aisha,Lewis,aisha.lewis945@outlook.com,32,,2024-08-23,Platinum,Boulder,CO,USA,Paid Social,False
+151500,Carlos,Martinez,carlos.martinez32@yahoo.com,42,Male,2024-08-28,Bronze,Springfield,IL,USA,Paid Social,False
+885353,Fatima,Martinez,fatima.martinez969@gmail.com,18,Female,2024-08-28,Bronze,Chicago,IL,USA,Email Campaign,True
+762496,Isabella,Lewis,isabella.lewis979@gmail.com,47,Female,2024-08-28,Bronze,Cleveland,OH,USA,Organic Search,True
+396871,Ava,King,ava.king769@yahoo.com,51,Female,2024-08-29,Platinum,Albany,NY,USA,Referral,False
+697772,Nora,Baker,nora.baker756@gmail.com,44,,2024-08-30,Silver,Philadelphia,PA,USA,Organic Search,True
+952373,Fatima,Okafor,fatima.okafor144@gmail.com,41,Female,2024-08-31,Gold,Ottawa,ON,Canada,Referral,False
+377565,Scarlett,Silva,scarlett.silva868@hotmail.com,25,Female,2024-08-31,Platinum,Miami,FL,USA,Organic Search,True
+678851,Oliver,Brown,oliver.brown803@yahoo.com,19,Male,2024-08-31,Platinum,Tacoma,WA,USA,Direct,False
+140390,Noah,Roberts,noah.roberts895@gmail.com,39,Male,2024-09-01,Platinum,Dallas,TX,USA,Organic Search,False
+861512,Owen,Adams,owen.adams676@gmail.com,44,Male,2024-09-03,Bronze,Columbus,OH,USA,Organic Search,True
+334819,Maria,White,maria.white280@yahoo.com,36,Female,2024-09-06,Bronze,Austin,TX,USA,Organic Search,True
+249457,Owen,Thompson,owen.thompson147@gmail.com,29,Male,2024-09-06,Gold,Los Angeles,CA,USA,Organic Search,True
+666745,Lucas,Young,lucas.young443@icloud.com,47,Male,2024-09-11,Bronze,Springfield,IL,USA,Referral,True
+717284,Liam,Adams,liam.adams43@gmail.com,36,Male,2024-09-12,Silver,Philadelphia,PA,USA,Paid Social,False
+516468,Mia,Carter,mia.carter824@gmail.com,50,Female,2024-09-13,Bronze,Surrey,BC,Canada,Organic Search,True
+615199,Scarlett,Sanchez,scarlett.sanchez73@gmail.com,19,Female,2024-09-18,Platinum,Fresno,CA,USA,Email Campaign,False
+488554,Chloe,Wright,chloe.wright252@gmail.com,29,Female,2024-09-19,Bronze,Chicago,IL,USA,Paid Social,True
+488644,Noah,Lopez,noah.lopez967@gmail.com,20,Male,2024-09-20,Gold,Naperville,IL,USA,Organic Search,False
+608289,Amelia,Green,amelia.green521@yahoo.com,47,Female,2024-09-20,Bronze,Allentown,PA,USA,Paid Social,True
+802088,Amelia,Lewis,amelia.lewis332@gmail.com,21,Female,2024-09-23,Gold,Fresno,CA,USA,Email Campaign,False
+206945,Mia,Smith,mia.smith922@gmail.com,44,Female,2024-09-24,Bronze,Savannah,GA,USA,Organic Search,True
+182540,Lucas,Thomas,lucas.thomas714@icloud.com,29,Male,2024-09-25,Bronze,Allentown,PA,USA,Paid Social,True
+250897,Levi,Rivera,levi.rivera565@proton.me,23,Male,2024-09-27,Gold,San Antonio,TX,USA,Paid Social,True
+265163,Wei,Flores,wei.flores967@gmail.com,28,Male,2024-09-28,Gold,Houston,TX,USA,Paid Social,True
+120506,Samuel,Hill,samuel.hill808@yahoo.com,67,Male,2024-09-28,Silver,Calgary,AB,Canada,Paid Social,True
+757288,William,Baker,william.baker21@yahoo.com,37,Male,2024-10-02,Bronze,Naperville,IL,USA,Paid Social,True
+465918,Arjun,Robinson,arjun.robinson251@hotmail.com,41,Male,2024-10-04,Bronze,Atlanta,GA,USA,Organic Search,True
+533723,Amelia,Singh,amelia.singh144@gmail.com,18,Female,2024-10-04,Bronze,Jacksonville,FL,USA,Paid Social,True
+180236,Priya,Jones,priya.jones927@gmail.com,27,Female,2024-10-04,Silver,Tampa,FL,USA,Direct,False
+516339,Daniel,Kim,daniel.kim326@icloud.com,38,Male,2024-10-08,Platinum,Victoria,BC,Canada,Affiliate,True
+489282,Jamal,Lee,jamal.lee249@outlook.com,48,Male,2024-10-10,Gold,Boulder,CO,USA,Paid Social,True
+492670,James,Allen,james.allen715@gmail.com,32,Male,2024-10-12,Bronze,Los Angeles,CA,USA,Organic Search,True
+225738,Grace,King,grace.king236@gmail.com,42,Female,2024-10-12,Platinum,Allentown,PA,USA,Email Campaign,True
+512993,Owen,Lee,owen.lee260@gmail.com,18,Male,2024-10-13,Silver,Durham,NC,USA,Email Campaign,True
+370685,Sam,Kowalski,sam.kowalski608@gmail.com,37,Non-binary,2024-10-15,Bronze,Buffalo,NY,USA,Organic Search,False
+994636,Diego,Murphy,diego.murphy389@hotmail.com,57,Male,2024-10-15,Gold,Durham,NC,USA,Affiliate,True
+205361,Nora,Brown,nora.brown554@outlook.com,54,Female,2024-10-15,Bronze,Los Angeles,CA,USA,Affiliate,False
+764259,Zoe,Jones,zoe.jones456@gmail.com,32,Female,2024-10-16,Gold,Springfield,IL,USA,Referral,False
+807606,Abigail,Harris,abigail.harris111@gmail.com,34,Female,2024-10-17,Silver,Houston,TX,USA,Organic Search,False
+933183,Henry,Garcia,henry.garcia585@gmail.com,39,Male,2024-10-21,Gold,Cleveland,OH,USA,Paid Social,False
+868771,Ava,King,ava.king294@gmail.com,32,Female,2024-10-23,Silver,Sacramento,CA,USA,Paid Social,True
+467889,Nora,Lee,,38,Female,2024-10-24,Bronze,Miami,FL,USA,Paid Social,True
+137421,Lily,Jones,lily.jones737@gmail.com,39,Female,2024-10-24,Bronze,Fresno,CA,USA,Organic Search,True
+183949,Levi,Perez,levi.perez466@gmail.com,35,Male,2024-10-30,Silver,Denver,CO,USA,Direct,True
+145116,Amelia,Adams,amelia.adams801@gmail.com,32,Female,2024-10-30,Silver,Houston,TX,USA,Direct,False
+486139,Evelyn,Gonzalez,evelyn.gonzalez295@icloud.com,28,Female,2024-10-31,Gold,Spokane,WA,USA,Referral,True
+853073,Omar,Jones,omar.jones330@hotmail.com,19,Male,2024-10-31,Bronze,Columbus,OH,USA,Direct,True
+448379,Sophia,Kowalski,sophia.kowalski298@gmail.com,30,Female,2024-11-03,Gold,Austin,TX,USA,Affiliate,False
+264116,Aisha,Williams,aisha.williams291@gmail.com,49,Female,2024-11-03,Bronze,Jacksonville,FL,USA,Referral,True
+704553,Scarlett,Taylor,scarlett.taylor64@gmail.com,55,Female,2024-11-03,Bronze,Sacramento,CA,USA,Referral,True
+598995,Aisha,Patel,aisha.patel373@gmail.com,25,Female,2024-11-04,Bronze,Boston,MA,USA,Organic Search,False
+121565,Liam,Thompson,liam.thompson766@gmail.com,36,Male,2024-11-06,Gold,Naperville,IL,USA,Organic Search,False
+331726,Daniel,Robinson,daniel.robinson39@icloud.com,55,Male,2024-11-08,Bronze,Fresno,CA,USA,Paid Social,False
+923791,Mohammed,Mitchell,mohammed.mitchell520@outlook.com,51,Male,2024-11-09,Silver,San Jose,CA,USA,Paid Social,True
+264557,Camila,Allen,camila.allen584@gmail.com,52,Female,2024-11-11,Silver,Billings,MT,USA,Organic Search,False
+147717,Camila,Singh,,34,Female,2024-11-11,Silver,Quebec City,QC,Canada,Direct,True
+801962,Lucas,Campbell,lucas.campbell884@gmail.com,37,Male,2024-11-13,Bronze,Jacksonville,FL,USA,Organic Search,True
+590356,Samuel,Martinez,samuel.martinez24@gmail.com,32,Male,2024-11-17,Bronze,Cleveland,OH,USA,Paid Social,True
+446431,Emma,Hernandez,emma.hernandez519@outlook.com,25,Female,2024-11-18,Bronze,Sacramento,CA,USA,Paid Social,False
+815497,Sofia,Taylor,sofia.taylor928@icloud.com,43,Female,2024-11-19,Bronze,Savannah,GA,USA,Paid Social,False
+592322,Priya,White,priya.white620@outlook.com,52,Female,2024-11-20,Gold,Austin,TX,USA,Paid Social,True
+806987,Levi,Allen,levi.allen958@outlook.com,18,Male,2024-11-21,Bronze,Dallas,TX,USA,Email Campaign,True
+270348,Harper,Allen,harper.allen34@gmail.com,38,Female,2024-11-25,Silver,Des Moines,IA,USA,Paid Social,False
+697325,Emma,Martin,emma.martin578@outlook.com,41,Female,2024-11-25,Bronze,Surrey,BC,Canada,Referral,True
+781168,Sophia,Patel,sophia.patel444@outlook.com,46,Female,2024-11-26,Silver,Dallas,TX,USA,Paid Social,True
+981215,Layla,Lopez,layla.lopez304@yahoo.com,39,Female,2024-11-27,Bronze,Denver,CO,USA,Organic Search,True
+400584,Arjun,Kim,arjun.kim250@icloud.com,34,Male,2024-11-28,Gold,Victoria,BC,Canada,Affiliate,False
+744636,Nora,Green,nora.green638@outlook.com,49,Female,2024-11-29,Bronze,Cincinnati,OH,USA,Organic Search,False
+527694,Aisha,Walker,aisha.walker848@yahoo.com,19,Female,2024-11-30,Bronze,Fresno,CA,USA,Organic Search,True
+244471,Ella,Martin,ella.martin903@icloud.com,37,Female,2024-11-30,Bronze,Orlando,FL,USA,Email Campaign,True
+300933,Kenji,Martin,kenji.martin908@gmail.com,58,,2024-12-01,Gold,New York,NY,USA,Organic Search,True
+654409,Jack,Taylor,jack.taylor454@gmail.com,38,Male,2024-12-03,Bronze,Jacksonville,FL,USA,Email Campaign,True
+547541,Nora,Gonzalez,nora.gonzalez680@gmail.com,32,Female,2024-12-06,Bronze,Salem,OR,USA,Direct,False
+547190,William,Singh,,27,Male,2024-12-07,Bronze,Cleveland,OH,USA,Organic Search,False
+889949,Ethan,Wilson,ethan.wilson591@gmail.com,29,Male,2024-12-07,Bronze,Dallas,TX,USA,Paid Social,True
+441378,Alexander,Adams,alexander.adams157@gmail.com,55,Male,2024-12-09,Bronze,Naperville,IL,USA,Paid Social,True
+678032,Hannah,Jackson,hannah.jackson606@gmail.com,19,Female,2024-12-12,Gold,Boulder,CO,USA,Organic Search,False
+206110,Sophia,Walker,sophia.walker160@yahoo.com,35,Female,2024-12-12,Bronze,Allentown,PA,USA,Paid Social,True
+814733,Fatima,Khan,fatima.khan584@outlook.com,38,Female,2024-12-12,Bronze,Dallas,TX,USA,Email Campaign,True
+764845,Nora,Baker,nora.baker671@gmail.com,36,Female,2024-12-13,Silver,Los Angeles,CA,USA,Referral,False
+820299,Elijah,Allen,elijah.allen595@outlook.com,37,Male,2024-12-14,Silver,Cedar Rapids,IA,USA,Email Campaign,True
+702122,Nora,Thomas,nora.thomas974@icloud.com,24,Female,2024-12-17,Platinum,Jacksonville,FL,USA,Affiliate,True
+194699,Sofia,Wright,sofia.wright825@gmail.com,46,Female,2024-12-22,Bronze,Chicago,IL,USA,Organic Search,True
+501177,Owen,Taylor,owen.taylor373@icloud.com,35,Male,2024-12-22,Bronze,Philadelphia,PA,USA,Direct,True
+238093,Henry,Baker,henry.baker877@gmail.com,30,Male,2024-12-25,Gold,Jacksonville,FL,USA,Affiliate,True
+966252,Abigail,Robinson,abigail.robinson625@gmail.com,18,Female,2024-12-26,Silver,Austin,TX,USA,Email Campaign,False
+511312,Emma,Clark,emma.clark994@gmail.com,30,Female,2024-12-30,Bronze,San Jose,CA,USA,Referral,False
+340089,Daniel,Wright,daniel.wright724@icloud.com,50,Male,2024-12-31,Bronze,Charlotte,NC,USA,Direct,True
+789392,Harper,King,harper.king680@gmail.com,31,Female,2025-01-02,Platinum,Sacramento,CA,USA,Organic Search,True
+249284,Omar,Anderson,omar.anderson778@gmail.com,27,Male,2025-01-03,Gold,Miami,FL,USA,Referral,False
+523573,Mia,Davis,mia.davis237@proton.me,40,Female,2025-01-03,Bronze,Denver,CO,USA,Email Campaign,True
+514284,Michael,Carter,michael.carter31@gmail.com,34,Male,2025-01-05,Silver,Pittsburgh,PA,USA,Referral,False
+139745,Samuel,Sanchez,samuel.sanchez531@gmail.com,35,Male,2025-01-11,Silver,Chicago,IL,USA,Paid Social,True
+608218,Michael,Johnson,michael.johnson519@gmail.com,35,Male,2025-01-12,Platinum,Columbus,OH,USA,Direct,True
+248901,Omar,Cohen,omar.cohen696@icloud.com,48,Male,2025-01-13,Silver,New York,NY,USA,Paid Social,False
+348656,Sophia,Hernandez,sophia.hernandez954@gmail.com,51,Female,2025-01-15,Silver,Phoenix,AZ,USA,Organic Search,True
+138889,Carlos,Anderson,carlos.anderson561@icloud.com,49,Male,2025-01-15,Bronze,Miami,FL,USA,Paid Social,False
+530252,Isabella,Walker,isabella.walker321@gmail.com,30,Female,2025-01-16,Silver,Cincinnati,OH,USA,Organic Search,False
+471106,William,Anderson,william.anderson174@yahoo.com,40,Male,2025-01-16,Bronze,Cincinnati,OH,USA,Direct,True
+929408,Scarlett,Scott,,43,Female,2025-01-17,Bronze,Philadelphia,PA,USA,Direct,True
+225902,Mei,Nelson,mei.nelson936@outlook.com,38,Female,2025-01-18,Bronze,Savannah,GA,USA,Email Campaign,True
+905920,Oliver,Miller,oliver.miller570@outlook.com,42,Male,2025-01-18,Gold,Tacoma,WA,USA,Email Campaign,True
+470367,Liam,Brown,liam.brown448@outlook.com,41,Male,2025-01-19,Bronze,Springfield,IL,USA,Direct,True
+963640,Carlos,Martinez,carlos.martinez140@proton.me,41,Male,2025-01-20,Bronze,Victoria,BC,Canada,Email Campaign,True
+930588,Theodore,Kim,theodore.kim71@yahoo.com,36,Male,2025-01-21,Gold,Mississauga,ON,Canada,Email Campaign,True
+715918,William,Lopez,william.lopez302@gmail.com,32,Male,2025-01-21,Silver,Montreal,QC,Canada,Organic Search,False
+501851,Elijah,Davis,elijah.davis842@yahoo.com,61,Male,2025-01-23,Bronze,Portland,OR,USA,Organic Search,True
+242120,Sophia,Flores,sophia.flores666@gmail.com,23,Female,2025-01-24,Bronze,Allentown,PA,USA,Affiliate,True
+796683,Lily,Martinez,lily.martinez966@gmail.com,25,Female,2025-01-24,Bronze,Dallas,TX,USA,Organic Search,True
+666935,Oliver,Martin,oliver.martin779@gmail.com,45,Male,2025-01-27,Platinum,Buffalo,NY,USA,Direct,True
+165195,James,Hernandez,james.hernandez789@proton.me,43,Male,2025-01-29,Bronze,San Jose,CA,USA,Affiliate,False
+537643,Aisha,Williams,aisha.williams716@gmail.com,18,Female,2025-01-30,Platinum,Ames,IA,USA,Direct,False
+312071,Lucas,Tanaka,lucas.tanaka360@gmail.com,46,Male,2025-01-31,Platinum,Surrey,BC,Canada,Organic Search,True
+703931,Diego,Tanaka,diego.tanaka263@gmail.com,47,Male,2025-02-01,Platinum,Ottawa,ON,Canada,Email Campaign,True
+985542,Fatima,Ramirez,fatima.ramirez388@gmail.com,23,Female,2025-02-02,Silver,Calgary,AB,Canada,Paid Social,True
+942046,Wei,King,wei.king660@gmail.com,39,Male,2025-02-02,Silver,Springfield,IL,USA,Organic Search,True
+316704,Ava,Campbell,ava.campbell143@outlook.com,53,Female,2025-02-03,Bronze,Rochester,NY,USA,Paid Social,True
+314662,Oliver,Perez,oliver.perez207@outlook.com,39,Male,2025-02-05,Gold,Springfield,IL,USA,Organic Search,True
+226230,Arjun,Perez,arjun.perez46@gmail.com,62,Male,2025-02-06,Bronze,Naperville,IL,USA,Organic Search,True
+630731,Jack,Walker,jack.walker647@yahoo.com,53,Male,2025-02-10,Silver,Phoenix,AZ,USA,Organic Search,True
+442609,Casey,King,casey.king535@gmail.com,,Non-binary,2025-02-10,Silver,Durham,NC,USA,Paid Social,True
+856072,Harper,Miller,harper.miller714@gmail.com,62,Female,2025-02-10,Bronze,Austin,TX,USA,Direct,True
+215098,Zoe,Smith,zoe.smith677@gmail.com,51,Female,2025-02-11,Bronze,Cleveland,OH,USA,Organic Search,False
+501836,Daniel,Harris,daniel.harris906@outlook.com,47,Male,2025-02-11,Gold,Tacoma,WA,USA,Organic Search,False
+714101,Fatima,Ramirez,fatima.ramirez867@hotmail.com,18,Female,2025-02-11,Silver,Chicago,IL,USA,Referral,True
+460688,Hannah,Martinez,hannah.martinez222@gmail.com,36,Female,2025-02-13,Bronze,Toronto,ON,Canada,Referral,True
+842890,Evelyn,Cohen,evelyn.cohen40@gmail.com,33,Female,2025-02-14,Bronze,Los Angeles,CA,USA,Referral,False
+953549,Taylor,Chen,,42,,2025-02-15,Bronze,Rochester,NY,USA,Paid Social,False
+849764,Chloe,Walker,chloe.walker645@icloud.com,50,Female,2025-02-16,Bronze,Miami,FL,USA,Organic Search,True
+934887,Owen,White,owen.white985@gmail.com,30,Male,2025-02-18,Silver,Des Moines,IA,USA,Paid Social,True
+926741,William,Murphy,william.murphy697@gmail.com,20,Male,2025-02-19,Gold,Cleveland,OH,USA,Email Campaign,False
+131194,James,Flores,james.flores883@gmail.com,33,Male,2025-02-20,Silver,Montreal,QC,Canada,Organic Search,True
+529908,Ella,Wilson,ella.wilson527@outlook.com,52,Female,2025-02-20,Bronze,Tacoma,WA,USA,Referral,True
+282096,Mateo,Khan,mateo.khan136@yahoo.com,29,Male,2025-02-20,Silver,Miami,FL,USA,Paid Social,False
+645986,Emma,Perez,emma.perez759@gmail.com,37,Female,2025-02-26,Bronze,Cedar Rapids,IA,USA,Referral,False
+630890,Nora,Patel,nora.patel445@gmail.com,36,Female,2025-02-27,Bronze,Miami,FL,USA,Affiliate,True
+768338,Kenji,Wright,kenji.wright618@proton.me,43,Male,2025-02-28,Bronze,Cambridge,MA,USA,Organic Search,True
+256748,Omar,Thompson,omar.thompson953@hotmail.com,41,Male,2025-03-02,Bronze,Pittsburgh,PA,USA,Email Campaign,False
+379105,Maria,Thomas,maria.thomas222@gmail.com,23,Female,2025-03-06,Bronze,New York,NY,USA,Organic Search,True
+864345,Harper,Gonzalez,harper.gonzalez216@yahoo.com,50,Female,2025-03-06,Silver,Buffalo,NY,USA,Paid Social,True
+424619,Noah,Thomas,noah.thomas854@gmail.com,52,Male,2025-03-06,Bronze,Jacksonville,FL,USA,Organic Search,True
+540156,Jamal,Anderson,jamal.anderson652@outlook.com,44,Male,2025-03-07,Bronze,Augusta,GA,USA,Organic Search,True
+914137,Aisha,Rivera,aisha.rivera248@gmail.com,31,Female,2025-03-08,Silver,Sacramento,CA,USA,Organic Search,True
+667891,Scarlett,Moore,scarlett.moore220@gmail.com,35,Female,2025-03-13,Gold,Jacksonville,FL,USA,Referral,True
+620175,Mohammed,Smith,mohammed.smith655@gmail.com,30,Male,2025-03-14,Gold,Columbus,OH,USA,Organic Search,True
+815372,Elijah,Martinez,elijah.martinez933@outlook.com,,Male,2025-03-14,Gold,Savannah,GA,USA,Organic Search,True
+847492,Amelia,Tanaka,amelia.tanaka685@gmail.com,37,Female,2025-03-15,Bronze,Cedar Rapids,IA,USA,Affiliate,True
+690538,Lucas,Walker,lucas.walker247@outlook.com,36,Male,2025-03-15,Silver,Toronto,ON,Canada,Organic Search,False
+927843,Lily,Roberts,lily.roberts312@gmail.com,34,Female,2025-03-17,Silver,San Antonio,TX,USA,Paid Social,False
+597740,Maria,Khan,maria.khan378@gmail.com,40,Female,2025-03-17,Bronze,Augusta,GA,USA,Organic Search,True
+248547,Nora,Torres,nora.torres800@icloud.com,18,Female,2025-03-18,Gold,Laval,QC,Canada,Paid Social,True
+336051,James,Miller,james.miller842@outlook.com,33,Male,2025-03-19,Bronze,Surrey,BC,Canada,Direct,False
+240201,Levi,Smith,levi.smith741@icloud.com,48,Male,2025-03-19,Bronze,Denver,CO,USA,Email Campaign,True
+245012,James,Green,james.green830@yahoo.com,38,Male,2025-03-19,Bronze,Spokane,WA,USA,Paid Social,True
+488273,Lily,Flores,lily.flores682@gmail.com,23,Female,2025-03-21,Bronze,Mesa,AZ,USA,Referral,False
+281578,Wei,Johnson,wei.johnson220@gmail.com,30,Male,2025-03-21,Bronze,Des Moines,IA,USA,Paid Social,True
+182833,Chloe,Jones,chloe.jones306@gmail.com,21,Female,2025-03-24,Gold,San Antonio,TX,USA,Organic Search,False
+897112,Henry,Smith,henry.smith610@outlook.com,49,Male,2025-03-26,Bronze,Buffalo,NY,USA,Referral,True
+848714,Isabella,Robinson,isabella.robinson710@icloud.com,36,Female,2025-03-29,Gold,Seattle,WA,USA,Direct,False
+628445,Mia,Roberts,mia.roberts279@outlook.com,34,Female,2025-03-29,Silver,Cambridge,MA,USA,Paid Social,False
+186089,Mohammed,Wilson,mohammed.wilson802@yahoo.com,35,Male,2025-03-31,Bronze,Pittsburgh,PA,USA,Referral,True
+997627,Amelia,Rivera,amelia.rivera367@gmail.com,22,Female,2025-04-02,Bronze,Savannah,GA,USA,Organic Search,True
+945411,Samuel,Smith,samuel.smith514@outlook.com,34,Male,2025-04-05,Silver,Buffalo,NY,USA,Paid Social,True
+807528,Ethan,Kim,ethan.kim45@gmail.com,20,Male,2025-04-05,Bronze,Miami,FL,USA,Paid Social,True
+515308,Kenji,Flores,kenji.flores927@outlook.com,18,Male,2025-04-05,Bronze,Columbus,OH,USA,Organic Search,True
+475043,Isabella,Ramirez,isabella.ramirez869@gmail.com,47,Female,2025-04-06,Silver,Tucson,AZ,USA,Email Campaign,True
+898244,Fatima,Johnson,fatima.johnson319@gmail.com,41,Female,2025-04-08,Bronze,Augusta,GA,USA,Email Campaign,True
+218921,Levi,Campbell,levi.campbell849@gmail.com,30,Male,2025-04-09,Bronze,Durham,NC,USA,Organic Search,True
+893043,Diego,Ramirez,diego.ramirez73@yahoo.com,62,,2025-04-10,Bronze,Tampa,FL,USA,Organic Search,False
+543559,Evelyn,Green,evelyn.green940@gmail.com,37,Female,2025-04-10,Platinum,Fresno,CA,USA,Referral,True
+390648,William,Gonzalez,william.gonzalez258@icloud.com,41,Male,2025-04-10,Silver,Victoria,BC,Canada,Organic Search,True
+939426,Scarlett,Martin,scarlett.martin961@icloud.com,,Female,2025-04-10,Gold,Austin,TX,USA,Email Campaign,True
+468940,Sam,Hill,sam.hill714@outlook.com,36,Non-binary,2025-04-10,Platinum,Worcester,MA,USA,Direct,False
+321283,Theodore,Lee,,37,Male,2025-04-11,Bronze,San Diego,CA,USA,Paid Social,True
+504072,Zoe,Garcia,zoe.garcia551@gmail.com,43,Female,2025-04-12,Silver,Austin,TX,USA,Email Campaign,True
+408056,Theodore,Wilson,theodore.wilson686@yahoo.com,45,Male,2025-04-13,Bronze,Savannah,GA,USA,Paid Social,False
+951352,Camila,Thomas,camila.thomas38@gmail.com,49,Female,2025-04-17,Bronze,Miami,FL,USA,Organic Search,True
+108917,Evelyn,Walker,evelyn.walker76@yahoo.com,40,Female,2025-04-17,Silver,Atlanta,GA,USA,Email Campaign,True
+850004,Evelyn,Garcia,evelyn.garcia511@outlook.com,45,Female,2025-04-17,Silver,Phoenix,AZ,USA,Email Campaign,True
+856759,Arjun,Hill,arjun.hill433@hotmail.com,22,Male,2025-04-18,Bronze,Missoula,MT,USA,Affiliate,True
+787200,Ava,Allen,ava.allen931@gmail.com,43,Female,2025-04-19,Silver,Albany,NY,USA,Organic Search,True
+541284,Riley,Sanchez,riley.sanchez340@gmail.com,59,Non-binary,2025-04-21,Bronze,Boulder,CO,USA,Referral,False
+717195,Kenji,Murphy,kenji.murphy555@outlook.com,70,Male,2025-04-22,Bronze,Worcester,MA,USA,Organic Search,False
+846258,Emma,Lopez,emma.lopez4@gmail.com,42,Female,2025-04-22,Bronze,Chicago,IL,USA,Direct,True
+184666,Benjamin,Thomas,benjamin.thomas763@outlook.com,58,Male,2025-04-23,Bronze,Columbus,OH,USA,Organic Search,False
+388826,Isabella,Allen,isabella.allen473@gmail.com,47,Female,2025-04-24,Bronze,Boston,MA,USA,Paid Social,True
+355903,Olivia,Anderson,olivia.anderson991@gmail.com,24,Female,2025-04-25,Gold,Sacramento,CA,USA,Email Campaign,False
+628426,Omar,Silva,omar.silva594@outlook.com,45,Male,2025-04-28,Bronze,Miami,FL,USA,Direct,True
+257097,Amelia,Anderson,amelia.anderson20@gmail.com,19,Female,2025-04-30,Bronze,Albany,NY,USA,Referral,True
+996685,Hannah,Carter,hannah.carter549@gmail.com,35,Female,2025-05-01,Bronze,New York,NY,USA,Organic Search,False
+388496,Grace,Williams,grace.williams403@gmail.com,18,Female,2025-05-02,Gold,Worcester,MA,USA,Email Campaign,True
+748895,Sofia,Silva,sofia.silva784@proton.me,29,Female,2025-05-04,Bronze,San Diego,CA,USA,Direct,True
+639081,Ella,Singh,ella.singh817@yahoo.com,40,Female,2025-05-04,Bronze,Charlotte,NC,USA,Affiliate,True
+712537,Alexander,Tanaka,,22,Male,2025-05-06,Bronze,Raleigh,NC,USA,Organic Search,False
+548975,Olivia,Flores,olivia.flores816@yahoo.com,31,Female,2025-05-07,Bronze,San Jose,CA,USA,Direct,True
+887117,Maria,Chen,maria.chen428@outlook.com,25,Female,2025-05-08,Gold,New York,NY,USA,Organic Search,True
+563213,Ava,Davis,ava.davis716@proton.me,39,Female,2025-05-08,Bronze,Victoria,BC,Canada,Affiliate,True
+549079,Levi,Robinson,levi.robinson496@yahoo.com,32,Male,2025-05-10,Bronze,Buffalo,NY,USA,Organic Search,True
+581702,Wei,Jones,wei.jones378@gmail.com,45,Male,2025-05-12,Silver,San Antonio,TX,USA,Organic Search,False
+684370,Nora,Hill,nora.hill295@yahoo.com,52,Female,2025-05-13,Bronze,Tampa,FL,USA,Affiliate,True
+931927,Abigail,Nelson,abigail.nelson905@outlook.com,28,Female,2025-05-14,Bronze,Tampa,FL,USA,Affiliate,True
+359234,Abigail,Sanchez,abigail.sanchez456@yahoo.com,22,Female,2025-05-14,Bronze,Houston,TX,USA,Organic Search,True
+702216,Sofia,Miller,sofia.miller299@hotmail.com,43,Female,2025-05-16,Bronze,San Jose,CA,USA,Paid Social,True
+103940,Jack,Johnson,jack.johnson142@gmail.com,24,Male,2025-05-18,Bronze,Pittsburgh,PA,USA,Email Campaign,True
+457597,Evelyn,Young,evelyn.young551@yahoo.com,38,Female,2025-05-21,Gold,Albany,NY,USA,Organic Search,True
+800260,Scarlett,Kowalski,scarlett.kowalski955@outlook.com,43,Female,2025-05-23,Bronze,Montreal,QC,Canada,Paid Social,True
+545659,Elijah,Silva,elijah.silva188@gmail.com,65,Male,2025-05-23,Gold,Albany,NY,USA,Referral,True
+749526,Mohammed,Allen,mohammed.allen189@gmail.com,21,Male,2025-05-28,Gold,Cambridge,MA,USA,Paid Social,True
+791260,Amelia,Harris,amelia.harris775@yahoo.com,58,Female,2025-05-30,Platinum,San Jose,CA,USA,Affiliate,True
+557253,Grace,Chen,grace.chen383@proton.me,47,Female,2025-05-30,Bronze,Augusta,GA,USA,Organic Search,True
+255799,Maria,Davis,maria.davis120@icloud.com,42,Female,2025-06-01,Bronze,Spokane,WA,USA,Direct,False
+654616,Ravi,Cohen,ravi.cohen620@gmail.com,27,Male,2025-06-03,Gold,Billings,MT,USA,Organic Search,False
+929215,Liam,Adams,liam.adams399@icloud.com,37,Male,2025-06-05,Gold,Sacramento,CA,USA,Organic Search,True
+244802,Layla,Baker,layla.baker363@gmail.com,45,Female,2025-06-05,Bronze,Cambridge,MA,USA,Organic Search,False
+946474,Lucas,Roberts,lucas.roberts877@gmail.com,,Male,2025-06-06,Gold,Montreal,QC,Canada,Affiliate,False
+470613,Casey,Adams,casey.adams613@proton.me,,Non-binary,2025-06-07,Silver,Los Angeles,CA,USA,Affiliate,False
+717341,Chloe,Wilson,chloe.wilson773@gmail.com,38,Female,2025-06-11,Silver,Tacoma,WA,USA,Paid Social,True
+343810,Ella,Kim,ella.kim225@gmail.com,42,Female,2025-06-14,Silver,Denver,CO,USA,Organic Search,True
+684266,Camila,Miller,camila.miller730@icloud.com,28,Female,2025-06-14,Bronze,Orlando,FL,USA,Referral,True
+204309,Amelia,Rodriguez,amelia.rodriguez532@outlook.com,,Female,2025-06-19,Silver,Orlando,FL,USA,Paid Social,False
+813036,Noah,Jackson,noah.jackson340@gmail.com,18,Male,2025-06-23,Bronze,Seattle,WA,USA,Organic Search,True
+184063,Mohammed,Harris,mohammed.harris733@gmail.com,48,Male,2025-06-24,Gold,Sacramento,CA,USA,Paid Social,False
+901937,Fatima,Walker,fatima.walker329@outlook.com,34,Female,2025-06-25,Bronze,Tampa,FL,USA,Referral,False
+126094,Owen,Adams,owen.adams959@yahoo.com,47,Male,2025-06-28,Silver,Tampa,FL,USA,Affiliate,False
+229422,Diego,Cohen,diego.cohen118@gmail.com,37,Male,2025-06-29,Gold,Sacramento,CA,USA,Paid Social,True
+629306,Grace,Chen,grace.chen657@gmail.com,29,Female,2025-06-30,Bronze,Sacramento,CA,USA,Organic Search,True
+187415,Olivia,Moore,olivia.moore724@outlook.com,18,Female,2025-07-01,Bronze,Durham,NC,USA,Organic Search,True
+433582,Sophia,Martinez,sophia.martinez462@gmail.com,52,Female,2025-07-03,Bronze,Chicago,IL,USA,Email Campaign,False
+189971,Henry,Tanaka,henry.tanaka107@gmail.com,39,Male,2025-07-04,Silver,Denver,CO,USA,Direct,True
+733081,Noah,King,noah.king616@yahoo.com,29,Male,2025-07-05,Platinum,Austin,TX,USA,Referral,True
+928440,Harper,Gonzalez,harper.gonzalez698@outlook.com,41,Female,2025-07-05,Bronze,Miami,FL,USA,Email Campaign,False
+415774,Owen,Nguyen,owen.nguyen872@outlook.com,37,Male,2025-07-05,Bronze,Savannah,GA,USA,Organic Search,True
+683143,Mia,Wilson,mia.wilson391@gmail.com,31,Female,2025-07-06,Bronze,Phoenix,AZ,USA,Email Campaign,False
+826265,Hannah,Thompson,hannah.thompson188@hotmail.com,57,Female,2025-07-06,Bronze,Charlotte,NC,USA,Organic Search,False
+221043,Arjun,White,arjun.white371@gmail.com,53,Male,2025-07-08,Platinum,San Diego,CA,USA,Email Campaign,False
+476635,Jamal,Smith,jamal.smith265@gmail.com,20,Male,2025-07-09,Bronze,Boulder,CO,USA,Paid Social,True
+104886,Camila,Patel,camila.patel124@hotmail.com,47,Female,2025-07-10,Bronze,Boston,MA,USA,Direct,True
+703530,Omar,Gonzalez,omar.gonzalez23@outlook.com,55,Male,2025-07-11,Bronze,Raleigh,NC,USA,Direct,False
+314695,Ella,Wright,ella.wright431@outlook.com,18,Female,2025-07-16,Gold,Cincinnati,OH,USA,Referral,False
+519607,Mohammed,Green,mohammed.green830@gmail.com,56,Male,2025-07-17,Bronze,Seattle,WA,USA,Affiliate,False
+203887,Chloe,Thompson,chloe.thompson620@yahoo.com,29,Female,2025-07-19,Silver,Vancouver,BC,Canada,Referral,False
+216368,Abigail,Kim,abigail.kim182@gmail.com,42,Female,2025-07-20,Bronze,Ottawa,ON,Canada,Paid Social,True
+348064,Oliver,Campbell,oliver.campbell856@outlook.com,52,Male,2025-07-20,Bronze,Pittsburgh,PA,USA,Paid Social,True
+564163,Elijah,Lopez,elijah.lopez795@proton.me,58,Male,2025-07-20,Bronze,San Antonio,TX,USA,Organic Search,True
+500693,Layla,Hernandez,layla.hernandez887@gmail.com,51,Female,2025-07-22,Bronze,Los Angeles,CA,USA,Affiliate,False
+637500,Jack,Ramirez,jack.ramirez545@outlook.com,31,Male,2025-07-23,Bronze,Jacksonville,FL,USA,Email Campaign,False
+995660,Ethan,Lopez,ethan.lopez465@yahoo.com,48,Male,2025-07-23,Bronze,Albany,NY,USA,Email Campaign,True
+117556,Fatima,Jones,fatima.jones844@outlook.com,31,,2025-07-23,Gold,Surrey,BC,Canada,Organic Search,True
+539241,Ella,Lewis,ella.lewis967@gmail.com,43,Female,2025-07-25,Bronze,San Diego,CA,USA,Organic Search,True
+233128,Jack,Moore,jack.moore12@gmail.com,29,Male,2025-07-25,Silver,Jacksonville,FL,USA,Email Campaign,False
+871635,Michael,Khan,michael.khan976@gmail.com,29,Male,2025-07-26,Bronze,Austin,TX,USA,Organic Search,False
+550369,Layla,Rivera,layla.rivera968@gmail.com,74,Female,2025-07-27,Bronze,Victoria,BC,Canada,Organic Search,True
+349163,Noah,Harris,noah.harris685@gmail.com,18,Male,2025-07-28,Bronze,Toronto,ON,Canada,Organic Search,True
+686576,Grace,Cohen,grace.cohen560@gmail.com,34,Female,2025-08-02,Silver,Laval,QC,Canada,Affiliate,True
+365762,Noah,Scott,noah.scott610@gmail.com,57,Male,2025-08-02,Gold,Los Angeles,CA,USA,Paid Social,True
+962950,Lily,Torres,lily.torres349@yahoo.com,47,Female,2025-08-03,Gold,Miami,FL,USA,Organic Search,True
+138111,Arjun,Sanchez,arjun.sanchez634@yahoo.com,25,Male,2025-08-04,Bronze,San Jose,CA,USA,Email Campaign,False
+602802,Oliver,Miller,oliver.miller255@yahoo.com,28,Male,2025-08-04,Bronze,Boston,MA,USA,Paid Social,False
+177411,Daniel,Patel,daniel.patel428@gmail.com,37,Male,2025-08-05,Bronze,Allentown,PA,USA,Referral,True
+229964,Camila,Patel,camila.patel430@gmail.com,34,Female,2025-08-12,Bronze,Tacoma,WA,USA,Organic Search,False
+782086,Aisha,Jackson,aisha.jackson727@yahoo.com,39,Female,2025-08-12,Bronze,Mississauga,ON,Canada,Affiliate,True
+522163,Mei,Cohen,mei.cohen842@yahoo.com,57,Female,2025-08-13,Silver,San Antonio,TX,USA,Email Campaign,True
+827169,Camila,Davis,camila.davis951@gmail.com,53,Female,2025-08-13,Gold,Cleveland,OH,USA,Referral,True
+839685,Lucas,Sanchez,lucas.sanchez104@gmail.com,25,Male,2025-08-15,Bronze,Laval,QC,Canada,Referral,True
+563897,Mei,Okafor,mei.okafor577@gmail.com,26,Female,2025-08-16,Silver,Durham,NC,USA,Referral,False
+877387,Aisha,Roberts,aisha.roberts83@gmail.com,51,Female,2025-08-17,Bronze,Denver,CO,USA,Paid Social,False
+385326,Amelia,Patel,amelia.patel110@gmail.com,37,Female,2025-08-17,Silver,Ottawa,ON,Canada,Paid Social,False
+752908,Evelyn,Young,evelyn.young179@gmail.com,31,Female,2025-08-18,Silver,San Antonio,TX,USA,Organic Search,False
+436094,Jordan,King,jordan.king963@proton.me,23,Non-binary,2025-08-21,Silver,Tampa,FL,USA,Organic Search,False
+210439,Lucas,Rivera,lucas.rivera119@gmail.com,51,Male,2025-08-21,Bronze,Tampa,FL,USA,Email Campaign,True
+365062,Noah,Williams,noah.williams817@yahoo.com,32,Male,2025-08-21,Bronze,Durham,NC,USA,Paid Social,True
+636917,Arjun,Singh,arjun.singh997@icloud.com,47,Male,2025-08-22,Gold,Fresno,CA,USA,Affiliate,True
+942284,Omar,Lewis,omar.lewis767@gmail.com,55,Male,2025-08-23,Silver,Augusta,GA,USA,Organic Search,False
+438636,Omar,Thomas,omar.thomas585@gmail.com,27,Male,2025-08-25,Silver,San Jose,CA,USA,Organic Search,False
+104773,Alexander,Gonzalez,alexander.gonzalez115@gmail.com,18,Male,2025-08-26,Gold,Columbus,OH,USA,Email Campaign,True
+632716,Theodore,Green,theodore.green832@icloud.com,27,Male,2025-08-26,Bronze,Fresno,CA,USA,Referral,True
+211308,Ethan,Lee,ethan.lee677@outlook.com,18,Male,2025-08-27,Bronze,Charlotte,NC,USA,Referral,True
+793759,Olivia,Davis,olivia.davis430@gmail.com,57,Female,2025-08-27,Bronze,Des Moines,IA,USA,Affiliate,True
+771646,Mia,Murphy,mia.murphy553@gmail.com,34,Female,2025-08-29,Bronze,Augusta,GA,USA,Affiliate,False
+808681,Emily,Adams,emily.adams535@gmail.com,35,Female,2025-09-01,Bronze,Jacksonville,FL,USA,Paid Social,True
+238715,Wei,Flores,wei.flores694@yahoo.com,48,Male,2025-09-01,Silver,Jacksonville,FL,USA,Paid Social,False
+550529,Arjun,Campbell,arjun.campbell313@icloud.com,42,Male,2025-09-01,Platinum,Spokane,WA,USA,Organic Search,True
+709429,Daniel,Mitchell,daniel.mitchell580@hotmail.com,41,Male,2025-09-03,Silver,Miami,FL,USA,Paid Social,True
+202299,Grace,Lewis,grace.lewis493@gmail.com,49,Female,2025-09-04,Bronze,Allentown,PA,USA,Email Campaign,True
+845025,Samuel,Lewis,samuel.lewis720@gmail.com,35,Male,2025-09-09,Bronze,Sacramento,CA,USA,Organic Search,True
+557486,Oliver,Nelson,oliver.nelson265@gmail.com,58,,2025-09-09,Bronze,Jacksonville,FL,USA,Organic Search,False
+119023,Michael,Chen,michael.chen9@outlook.com,47,Male,2025-09-10,Silver,Jacksonville,FL,USA,Paid Social,True
+703518,Wei,Kowalski,wei.kowalski991@proton.me,23,Male,2025-09-11,Bronze,Charlotte,NC,USA,Organic Search,True
+919428,Kenji,Rivera,kenji.rivera443@yahoo.com,34,Male,2025-09-13,Silver,Naperville,IL,USA,Organic Search,False
+310346,Benjamin,Wilson,benjamin.wilson617@gmail.com,29,Male,2025-09-14,Silver,Ottawa,ON,Canada,Referral,False
+303028,Nora,Young,nora.young7@hotmail.com,,Female,2025-09-15,Gold,Cambridge,MA,USA,Organic Search,True
+144307,Benjamin,Clark,benjamin.clark873@yahoo.com,32,Male,2025-09-15,Bronze,Augusta,GA,USA,Email Campaign,False
+496735,Ravi,Baker,ravi.baker161@gmail.com,26,Male,2025-09-15,Silver,Miami,FL,USA,Affiliate,True
+762978,Nora,Jackson,nora.jackson64@gmail.com,45,Female,2025-09-20,Silver,Ottawa,ON,Canada,Paid Social,False
+876951,Grace,Harris,grace.harris561@gmail.com,33,Female,2025-09-21,Bronze,Jacksonville,FL,USA,Organic Search,True
+594225,Sofia,Nguyen,sofia.nguyen108@gmail.com,36,Female,2025-09-24,Silver,Fresno,CA,USA,Paid Social,True
+305164,Liam,Martin,liam.martin75@gmail.com,35,Male,2025-09-25,Bronze,Miami,FL,USA,Direct,True
+525804,Ava,Kim,ava.kim813@outlook.com,48,Female,2025-09-25,Bronze,Cleveland,OH,USA,Paid Social,True
+282330,Camila,Tanaka,camila.tanaka817@gmail.com,18,Female,2025-09-25,Bronze,San Diego,CA,USA,Organic Search,False
+241811,Emma,Thomas,emma.thomas676@gmail.com,38,Female,2025-09-28,Bronze,Billings,MT,USA,Paid Social,False
+248040,Henry,Hernandez,henry.hernandez419@gmail.com,32,,2025-10-04,Silver,Augusta,GA,USA,Organic Search,False
+599376,Jack,Torres,jack.torres473@gmail.com,37,Male,2025-10-04,Bronze,Albany,NY,USA,Organic Search,True
+195758,Abigail,Wright,,45,Female,2025-10-06,Silver,Philadelphia,PA,USA,Organic Search,True
+312880,Oliver,Smith,oliver.smith608@gmail.com,28,Male,2025-10-06,Bronze,Dallas,TX,USA,Paid Social,False
+807144,Harper,Silva,harper.silva719@outlook.com,32,Female,2025-10-07,Bronze,Tucson,AZ,USA,Affiliate,False
+198172,Emily,Murphy,emily.murphy818@gmail.com,42,Female,2025-10-11,Bronze,Austin,TX,USA,Direct,True
+908296,Samuel,Wilson,samuel.wilson208@hotmail.com,68,Male,2025-10-13,Silver,Naperville,IL,USA,Direct,False
+790360,Maria,Roberts,maria.roberts986@icloud.com,33,Female,2025-10-13,Bronze,Tacoma,WA,USA,Organic Search,False
+695079,Michael,Young,michael.young555@yahoo.com,43,Male,2025-10-13,Silver,Tampa,FL,USA,Paid Social,True
+820755,Scarlett,Green,scarlett.green61@gmail.com,33,Female,2025-10-14,Silver,Des Moines,IA,USA,Organic Search,True
+463515,Jamal,Nguyen,jamal.nguyen428@outlook.com,24,Male,2025-10-14,Bronze,Montreal,QC,Canada,Organic Search,True
+728215,Ravi,Rivera,ravi.rivera242@proton.me,41,Male,2025-10-16,Silver,Jacksonville,FL,USA,Organic Search,True
+964106,Diego,Davis,diego.davis944@icloud.com,23,Male,2025-10-18,Silver,Tacoma,WA,USA,Email Campaign,False
+974064,James,Carter,james.carter261@yahoo.com,48,Male,2025-10-19,Bronze,Fresno,CA,USA,Direct,True
+226126,Casey,White,casey.white440@yahoo.com,36,Non-binary,2025-10-20,Bronze,Victoria,BC,Canada,Referral,False
+955862,Aisha,Martinez,aisha.martinez296@hotmail.com,40,Female,2025-10-20,Bronze,Colorado Springs,CO,USA,Affiliate,True
+212415,Emily,Brown,emily.brown273@yahoo.com,22,Female,2025-10-21,Bronze,Atlanta,GA,USA,Paid Social,True
+429634,Mohammed,Rivera,mohammed.rivera782@gmail.com,51,Male,2025-10-23,Bronze,Tampa,FL,USA,Organic Search,False
+490347,Kenji,Lopez,kenji.lopez468@outlook.com,29,Male,2025-10-23,Bronze,Victoria,BC,Canada,Paid Social,True
+957721,Evelyn,Lopez,evelyn.lopez878@icloud.com,23,Female,2025-10-24,Bronze,Sacramento,CA,USA,Paid Social,False
+987743,Samuel,Jackson,samuel.jackson9@gmail.com,27,Male,2025-10-25,Bronze,Toronto,ON,Canada,Email Campaign,True
+404777,Evelyn,Rodriguez,evelyn.rodriguez462@proton.me,35,Female,2025-10-27,Silver,Spokane,WA,USA,Paid Social,True
+371116,Abigail,Campbell,abigail.campbell577@gmail.com,47,Female,2025-10-27,Bronze,San Diego,CA,USA,Organic Search,True
+359242,Ava,Campbell,ava.campbell235@icloud.com,44,Female,2025-10-30,Bronze,Columbus,OH,USA,Paid Social,True
+911638,Amelia,Gonzalez,amelia.gonzalez231@yahoo.com,31,Female,2025-11-01,Silver,Houston,TX,USA,Referral,True
+263225,Ravi,Williams,ravi.williams804@gmail.com,35,Male,2025-11-05,Bronze,Houston,TX,USA,Email Campaign,True
+207727,Priya,Scott,priya.scott218@gmail.com,32,Female,2025-11-07,Bronze,Fresno,CA,USA,Organic Search,True
+239673,Mia,Gonzalez,mia.gonzalez378@gmail.com,29,Female,2025-11-08,Bronze,San Jose,CA,USA,Paid Social,True
+650325,Mei,Rivera,mei.rivera827@gmail.com,28,Female,2025-11-09,Silver,Cincinnati,OH,USA,Organic Search,False
+181777,Emma,Walker,emma.walker580@gmail.com,59,Female,2025-11-18,Bronze,Allentown,PA,USA,Email Campaign,False
+591397,Sofia,Rivera,sofia.rivera293@hotmail.com,54,Female,2025-11-18,Gold,Fresno,CA,USA,Paid Social,False
+363986,Sofia,Carter,sofia.carter181@outlook.com,18,Female,2025-11-18,Bronze,Tampa,FL,USA,Referral,True
+598590,Isabella,Garcia,isabella.garcia117@gmail.com,45,Female,2025-11-20,Bronze,Allentown,PA,USA,Referral,False
+783188,Arjun,Gonzalez,arjun.gonzalez536@gmail.com,25,Male,2025-11-21,Bronze,Albany,NY,USA,Organic Search,True
+498642,Lily,Ramirez,lily.ramirez872@yahoo.com,41,Female,2025-11-23,Gold,Tampa,FL,USA,Organic Search,False
+225693,Theodore,Brown,theodore.brown341@gmail.com,21,,2025-11-24,Bronze,Cambridge,MA,USA,Direct,False
+622528,Charlotte,Garcia,charlotte.garcia930@gmail.com,36,Female,2025-11-25,Bronze,Tacoma,WA,USA,Paid Social,True
+273715,Amelia,Ramirez,amelia.ramirez958@gmail.com,39,Female,2025-11-25,Bronze,Tampa,FL,USA,Organic Search,False
+394625,Mei,Chen,mei.chen485@icloud.com,39,Female,2025-11-27,Silver,Pittsburgh,PA,USA,Paid Social,True
+651265,Jordan,Kowalski,jordan.kowalski105@gmail.com,21,Non-binary,2025-11-27,Bronze,Charlotte,NC,USA,Email Campaign,True
+436058,Harper,Anderson,harper.anderson606@gmail.com,49,Female,2025-12-01,Bronze,Mesa,AZ,USA,Organic Search,True
+711152,Sophia,Singh,sophia.singh986@gmail.com,33,Female,2025-12-01,Bronze,Philadelphia,PA,USA,Organic Search,False
+238180,Avery,Rodriguez,avery.rodriguez301@yahoo.com,41,Non-binary,2025-12-03,Bronze,Chicago,IL,USA,Referral,True
+816724,Mei,Hernandez,mei.hernandez776@proton.me,41,Female,2025-12-06,Gold,Allentown,PA,USA,Referral,True
+726120,Fatima,Young,fatima.young546@gmail.com,48,Female,2025-12-07,Silver,Naperville,IL,USA,Email Campaign,True
+552806,Jack,Kim,jack.kim868@yahoo.com,61,Male,2025-12-10,Bronze,New York,NY,USA,Direct,False
+670884,Elijah,Taylor,elijah.taylor774@yahoo.com,34,Male,2025-12-11,Bronze,Naperville,IL,USA,Organic Search,True
+481328,Evelyn,Wright,evelyn.wright478@gmail.com,29,Female,2025-12-12,Bronze,Ottawa,ON,Canada,Affiliate,False
+854949,Abigail,Patel,abigail.patel257@outlook.com,49,Female,2025-12-12,Gold,San Diego,CA,USA,Paid Social,True
+512617,Ethan,Nguyen,ethan.nguyen964@gmail.com,22,Male,2025-12-13,Bronze,New York,NY,USA,Organic Search,True
+279737,Oliver,King,oliver.king3@yahoo.com,27,Male,2025-12-14,Bronze,Portland,OR,USA,Referral,False
+699054,Emily,Roberts,emily.roberts579@gmail.com,31,Female,2025-12-17,Bronze,Quebec City,QC,Canada,Organic Search,True
+112534,Kenji,Campbell,kenji.campbell35@gmail.com,21,Male,2025-12-17,Silver,Colorado Springs,CO,USA,Organic Search,True
+181431,Mateo,Khan,mateo.khan846@outlook.com,38,Male,2025-12-18,Silver,Worcester,MA,USA,Direct,True
+382190,Emily,Martinez,emily.martinez720@gmail.com,46,Female,2025-12-18,Bronze,San Diego,CA,USA,Direct,False
+386700,Samuel,Johnson,samuel.johnson891@yahoo.com,41,Male,2025-12-21,Silver,Tampa,FL,USA,Email Campaign,False
+311816,Evelyn,Harris,evelyn.harris780@gmail.com,29,Female,2025-12-21,Gold,Cleveland,OH,USA,Organic Search,True
+139108,Kenji,Allen,kenji.allen838@yahoo.com,53,Male,2025-12-22,Silver,Dallas,TX,USA,Direct,True
+312967,Priya,Green,priya.green943@yahoo.com,42,Female,2025-12-24,Bronze,Tampa,FL,USA,Organic Search,False
+127709,Scarlett,Clark,scarlett.clark977@outlook.com,19,Female,2025-12-25,Bronze,San Antonio,TX,USA,Direct,True
+912019,Emma,Adams,emma.adams815@gmail.com,46,Female,2025-12-25,Gold,Augusta,GA,USA,Direct,True
+620850,Grace,Nguyen,grace.nguyen948@gmail.com,47,Female,2025-12-26,Bronze,Mississauga,ON,Canada,Paid Social,True
+804849,Harper,Silva,harper.silva215@gmail.com,38,Female,2025-12-27,Gold,Houston,TX,USA,Direct,True
+844071,Evelyn,Murphy,evelyn.murphy718@gmail.com,55,Female,2025-12-29,Silver,Denver,CO,USA,Direct,False
+418734,Ava,Hill,ava.hill985@gmail.com,30,Female,2025-12-30,Bronze,Des Moines,IA,USA,Direct,True
+236288,William,Baker,william.baker565@yahoo.com,29,Male,2025-12-31,Silver,Tampa,FL,USA,Referral,True
+642491,Noah,Kim,noah.kim150@outlook.com,49,Male,2025-12-31,Bronze,Austin,TX,USA,Paid Social,True
+346533,Morgan,Adams,morgan.adams304@gmail.com,68,Non-binary,2025-12-31,Bronze,Houston,TX,USA,Organic Search,True
+629455,Camila,Lee,camila.lee512@hotmail.com,66,Female,2025-12-31,Silver,New York,NY,USA,Paid Social,True
+738553,Zoe,Martin,zoe.martin706@gmail.com,34,Female,2026-01-02,Bronze,Pittsburgh,PA,USA,Paid Social,True
+762649,Henry,Carter,henry.carter420@gmail.com,29,Male,2026-01-02,Bronze,Albany,NY,USA,Paid Social,True
+663408,Kenji,Murphy,kenji.murphy480@yahoo.com,42,Male,2026-01-03,Silver,Allentown,PA,USA,Paid Social,True
+837858,Grace,Clark,grace.clark180@icloud.com,34,Female,2026-01-05,Silver,Los Angeles,CA,USA,Email Campaign,True
+831939,Levi,Khan,levi.khan969@outlook.com,25,Male,2026-01-06,Silver,Springfield,IL,USA,Organic Search,True
+523990,Carlos,Harris,carlos.harris241@outlook.com,35,Male,2026-01-13,Bronze,Chicago,IL,USA,Paid Social,False
+747498,Jamal,Silva,jamal.silva684@gmail.com,22,Male,2026-01-17,Bronze,Naperville,IL,USA,Paid Social,False
+865293,Jamal,Kowalski,jamal.kowalski348@gmail.com,29,Male,2026-01-17,Bronze,Phoenix,AZ,USA,Direct,True
+823687,Harper,Gonzalez,harper.gonzalez397@icloud.com,29,Female,2026-01-19,Bronze,Los Angeles,CA,USA,Direct,True
+504977,Olivia,Wilson,olivia.wilson923@yahoo.com,38,Female,2026-01-20,Silver,Montreal,QC,Canada,Paid Social,False
+856361,William,Rodriguez,william.rodriguez653@yahoo.com,41,Male,2026-01-20,Bronze,Durham,NC,USA,Email Campaign,True
+670694,Abigail,Walker,abigail.walker621@outlook.com,55,Female,2026-01-22,Silver,Fresno,CA,USA,Organic Search,True
+641396,Emma,Chen,emma.chen724@gmail.com,24,Female,2026-01-24,Silver,Orlando,FL,USA,Organic Search,True
+975264,Layla,Young,layla.young35@gmail.com,40,Female,2026-01-24,Silver,Buffalo,NY,USA,Email Campaign,False
+853052,Samuel,Lewis,samuel.lewis200@gmail.com,38,Male,2026-01-25,Bronze,Austin,TX,USA,Organic Search,True
+753799,Jamal,Wright,jamal.wright785@proton.me,39,Male,2026-01-25,Bronze,Toronto,ON,Canada,Organic Search,True
+476548,Casey,Hernandez,casey.hernandez335@outlook.com,53,Non-binary,2026-01-30,Silver,Los Angeles,CA,USA,Email Campaign,True
+942305,Charlotte,Roberts,charlotte.roberts230@gmail.com,22,Female,2026-02-01,Bronze,Spokane,WA,USA,Referral,False
+650759,Harper,Martin,harper.martin16@hotmail.com,46,Female,2026-02-03,Gold,Albany,NY,USA,Organic Search,False
+821499,Priya,Perez,priya.perez743@outlook.com,54,Female,2026-02-04,Bronze,Fresno,CA,USA,Organic Search,False
+400648,Ava,Miller,ava.miller827@yahoo.com,,Female,2026-02-05,Bronze,Seattle,WA,USA,Organic Search,False
+966727,Charlotte,Robinson,charlotte.robinson83@yahoo.com,35,Female,2026-02-06,Silver,Edmonton,AB,Canada,Paid Social,True
+764102,Lucas,Patel,lucas.patel413@gmail.com,23,Male,2026-02-06,Bronze,Orlando,FL,USA,Direct,True
+837710,William,Rodriguez,william.rodriguez263@gmail.com,70,Male,2026-02-06,Bronze,Rochester,NY,USA,Referral,False
+351203,Noah,Adams,noah.adams986@yahoo.com,39,Male,2026-02-08,Bronze,Cincinnati,OH,USA,Organic Search,True
+202342,Amelia,Walker,amelia.walker170@proton.me,58,Female,2026-02-11,Bronze,Austin,TX,USA,Affiliate,True
+677977,Ava,Singh,ava.singh215@outlook.com,43,Female,2026-02-11,Bronze,Naperville,IL,USA,Email Campaign,False
+724434,Lily,Okafor,lily.okafor272@yahoo.com,64,Female,2026-02-12,Silver,Buffalo,NY,USA,Email Campaign,True
+297200,Abigail,Nguyen,abigail.nguyen182@gmail.com,41,Female,2026-02-13,Silver,Missoula,MT,USA,Paid Social,True
+664785,Charlotte,Ramirez,charlotte.ramirez944@gmail.com,40,Female,2026-02-15,Bronze,Buffalo,NY,USA,Referral,True
+977096,Jordan,Moore,jordan.moore506@icloud.com,24,Non-binary,2026-02-15,Silver,Atlanta,GA,USA,Direct,False
+157374,Carlos,Sanchez,carlos.sanchez760@gmail.com,42,Male,2026-02-15,Bronze,Augusta,GA,USA,Organic Search,False
+330201,Morgan,Williams,morgan.williams897@proton.me,43,Non-binary,2026-02-16,Silver,Laval,QC,Canada,Direct,False
+848276,Fatima,Tanaka,fatima.tanaka296@gmail.com,43,Female,2026-02-17,Bronze,Boulder,CO,USA,Organic Search,False
+956980,Wei,Walker,wei.walker396@gmail.com,54,Male,2026-02-19,Silver,Missoula,MT,USA,Paid Social,True
+570218,Ella,Roberts,ella.roberts644@icloud.com,35,Female,2026-02-21,Silver,Springfield,IL,USA,Direct,True
+186676,Ella,Allen,ella.allen523@gmail.com,47,Female,2026-02-21,Gold,Durham,NC,USA,Organic Search,True
+803896,Camila,Williams,camila.williams930@icloud.com,30,Female,2026-02-21,Bronze,Los Angeles,CA,USA,Paid Social,True
+749452,Charlotte,Silva,charlotte.silva217@gmail.com,37,Female,2026-02-22,Bronze,Augusta,GA,USA,Paid Social,False
+527650,Emily,Harris,emily.harris140@gmail.com,41,Female,2026-02-24,Silver,Dallas,TX,USA,Organic Search,False
+494712,Mia,Lopez,mia.lopez894@icloud.com,34,Female,2026-03-01,Gold,Springfield,IL,USA,Paid Social,False
+773541,Scarlett,Harris,scarlett.harris165@hotmail.com,42,Female,2026-03-02,Bronze,Atlanta,GA,USA,Referral,True
+788241,Oliver,Jones,oliver.jones238@yahoo.com,47,Male,2026-03-04,Bronze,Dallas,TX,USA,Direct,False
+714777,Olivia,Hill,olivia.hill247@icloud.com,18,Female,2026-03-05,Bronze,Orlando,FL,USA,Paid Social,True
+729179,Ella,Smith,ella.smith459@outlook.com,33,Female,2026-03-05,Bronze,Austin,TX,USA,Email Campaign,True
+353929,Noah,Roberts,noah.roberts339@yahoo.com,,Male,2026-03-06,Silver,Cambridge,MA,USA,Paid Social,False
+371186,Lily,Baker,lily.baker45@gmail.com,27,Female,2026-03-06,Gold,Dallas,TX,USA,Organic Search,True
+136130,Mohammed,Roberts,mohammed.roberts530@hotmail.com,24,Male,2026-03-09,Bronze,Durham,NC,USA,Organic Search,False
+734021,Ella,Miller,ella.miller559@proton.me,,Female,2026-03-11,Silver,Eugene,OR,USA,Email Campaign,True
+943374,Carlos,Khan,carlos.khan215@gmail.com,25,Male,2026-03-12,Bronze,Salem,OR,USA,Organic Search,False
+476501,Elijah,Kowalski,elijah.kowalski170@gmail.com,48,Male,2026-03-14,Bronze,Mesa,AZ,USA,Referral,False
+614148,Liam,Thompson,liam.thompson199@outlook.com,37,Male,2026-03-17,Bronze,Philadelphia,PA,USA,Organic Search,True
+868823,Quinn,Wright,quinn.wright583@outlook.com,48,Non-binary,2026-03-18,Bronze,Austin,TX,USA,Paid Social,False
+493035,Mia,Baker,mia.baker217@gmail.com,38,Female,2026-03-18,Bronze,Phoenix,AZ,USA,Referral,False
+769587,Harper,Moore,harper.moore749@gmail.com,18,Female,2026-03-18,Bronze,Ottawa,ON,Canada,Direct,True
+971813,Levi,Johnson,levi.johnson676@gmail.com,62,Male,2026-03-21,Silver,San Jose,CA,USA,Paid Social,True
+304294,Priya,Smith,priya.smith656@gmail.com,22,Female,2026-03-21,Bronze,Boston,MA,USA,Organic Search,True
+174397,Ravi,Martinez,ravi.martinez936@yahoo.com,23,Male,2026-03-24,Silver,Surrey,BC,Canada,Email Campaign,True
+726939,Scarlett,Young,scarlett.young287@yahoo.com,43,Female,2026-03-24,Bronze,Buffalo,NY,USA,Email Campaign,False
+634128,Abigail,Williams,abigail.williams737@gmail.com,47,Female,2026-03-25,Bronze,Jacksonville,FL,USA,Paid Social,True
+999014,Priya,Murphy,priya.murphy814@gmail.com,53,Female,2026-03-28,Bronze,Atlanta,GA,USA,Paid Social,False
+429344,Maria,Williams,maria.williams721@outlook.com,62,Female,2026-03-28,Bronze,Boston,MA,USA,Referral,True
+761450,Carlos,Green,carlos.green773@gmail.com,32,Male,2026-03-28,Bronze,Seattle,WA,USA,Affiliate,True
+965874,Mateo,Okafor,mateo.okafor776@gmail.com,44,Male,2026-04-02,Silver,Savannah,GA,USA,Direct,False
+583755,Emily,Torres,emily.torres581@gmail.com,20,Female,2026-04-04,Silver,Savannah,GA,USA,Direct,True
+272979,Nora,Davis,nora.davis611@gmail.com,42,Female,2026-04-09,Gold,Ames,IA,USA,Direct,True
+476036,Scarlett,Allen,scarlett.allen69@gmail.com,41,Female,2026-04-11,Silver,Jacksonville,FL,USA,Referral,True
+320359,Ella,Johnson,ella.johnson194@outlook.com,22,Female,2026-04-13,Bronze,Ames,IA,USA,Paid Social,False
+105856,Mohammed,Nelson,mohammed.nelson962@yahoo.com,47,Male,2026-04-14,Bronze,Dallas,TX,USA,Referral,True
+132452,William,Thomas,william.thomas227@icloud.com,37,Male,2026-04-15,Bronze,Buffalo,NY,USA,Referral,True
+665396,Emma,Singh,emma.singh789@gmail.com,25,Female,2026-04-15,Bronze,Raleigh,NC,USA,Email Campaign,True
+573737,Ravi,King,ravi.king469@gmail.com,44,Male,2026-04-19,Silver,Miami,FL,USA,Affiliate,True
+531321,Lily,Martinez,lily.martinez895@gmail.com,71,Female,2026-04-21,Bronze,Durham,NC,USA,Paid Social,True
+727549,Michael,Rivera,michael.rivera455@gmail.com,34,Male,2026-04-22,Bronze,Tampa,FL,USA,Organic Search,False
+348817,Hannah,King,hannah.king214@yahoo.com,37,Female,2026-04-24,Silver,Pittsburgh,PA,USA,Organic Search,True
+325332,Lucas,Kowalski,lucas.kowalski586@outlook.com,,Male,2026-04-24,Bronze,Tacoma,WA,USA,Paid Social,False
+319318,James,Torres,james.torres613@gmail.com,27,Male,2026-04-26,Bronze,Seattle,WA,USA,Email Campaign,True
+120422,Lucas,Perez,lucas.perez548@gmail.com,55,Male,2026-04-26,Bronze,Sacramento,CA,USA,Direct,True
+573310,Grace,Brown,grace.brown875@gmail.com,43,Female,2026-04-26,Bronze,Durham,NC,USA,Organic Search,False
+222847,Mei,King,mei.king430@outlook.com,20,Female,2026-04-30,Bronze,Fresno,CA,USA,Paid Social,True
+664101,Henry,Anderson,henry.anderson233@outlook.com,30,Male,2026-05-02,Bronze,Springfield,IL,USA,Email Campaign,True
+745821,Elijah,Cohen,elijah.cohen835@yahoo.com,33,Male,2026-05-03,Bronze,Boston,MA,USA,Email Campaign,False
+959533,Henry,Sanchez,henry.sanchez243@yahoo.com,39,Male,2026-05-03,Bronze,Buffalo,NY,USA,Organic Search,False
+227041,Emma,Jackson,emma.jackson538@outlook.com,44,Female,2026-05-05,Bronze,Sacramento,CA,USA,Paid Social,True
+385215,Wei,Torres,wei.torres403@yahoo.com,57,Male,2026-05-07,Bronze,Charlotte,NC,USA,Direct,True
+554598,Theodore,Mitchell,theodore.mitchell780@yahoo.com,19,Male,2026-05-10,Silver,Seattle,WA,USA,Email Campaign,True
+642034,Maria,Ramirez,maria.ramirez440@gmail.com,53,Female,2026-05-12,Bronze,Laval,QC,Canada,Referral,True
+799199,Layla,Silva,layla.silva313@yahoo.com,39,Female,2026-05-12,Bronze,Miami,FL,USA,Referral,True
+175936,Chloe,Moore,chloe.moore510@gmail.com,54,Female,2026-05-13,Bronze,Seattle,WA,USA,Organic Search,True
+512666,James,Patel,james.patel448@gmail.com,22,Male,2026-05-16,Silver,Ottawa,ON,Canada,Paid Social,False
+854071,Fatima,Jackson,,,Female,2026-05-17,Bronze,Fresno,CA,USA,Paid Social,False
+762085,Rowan,Lewis,rowan.lewis602@gmail.com,18,Non-binary,2026-05-18,Bronze,Austin,TX,USA,Referral,False
+625245,Benjamin,Young,benjamin.young389@gmail.com,35,Male,2026-05-19,Silver,Seattle,WA,USA,Organic Search,False
+279683,Evelyn,Nelson,evelyn.nelson430@yahoo.com,,Female,2026-05-21,Gold,Ottawa,ON,Canada,Paid Social,True
+356115,Abigail,Kim,abigail.kim959@icloud.com,39,Female,2026-05-24,Silver,Cambridge,MA,USA,Paid Social,False
+914385,Mei,Flores,mei.flores944@gmail.com,57,Female,2026-05-25,Gold,Savannah,GA,USA,Email Campaign,True
+698931,Emma,Jackson,emma.jackson715@hotmail.com,43,Female,2026-05-25,Bronze,Tucson,AZ,USA,Organic Search,True
+544222,Omar,White,omar.white116@gmail.com,18,Male,2026-05-27,Bronze,Sacramento,CA,USA,Organic Search,False
+793159,Fatima,Torres,fatima.torres452@gmail.com,48,Female,2026-05-29,Silver,Salem,OR,USA,Referral,False
+576694,Benjamin,Cohen,benjamin.cohen815@yahoo.com,38,Male,2026-05-31,Bronze,Raleigh,NC,USA,Organic Search,True
+383904,Amelia,Thomas,amelia.thomas677@icloud.com,45,Female,2026-06-03,Bronze,Dallas,TX,USA,Email Campaign,False
+865643,Kenji,Sanchez,kenji.sanchez463@gmail.com,42,,2026-06-04,Bronze,Houston,TX,USA,Referral,False
+582626,Nora,Jackson,nora.jackson406@yahoo.com,18,Female,2026-06-07,Bronze,San Jose,CA,USA,Paid Social,True
+554089,Ravi,Murphy,ravi.murphy147@gmail.com,27,,2026-06-07,Silver,Charlotte,NC,USA,Affiliate,True
+634704,Ava,Green,ava.green631@outlook.com,47,Female,2026-06-08,Bronze,Fresno,CA,USA,Referral,True
+781552,Sophia,Green,sophia.green635@gmail.com,51,Female,2026-06-10,Bronze,Philadelphia,PA,USA,Referral,True
+509881,Jamal,Campbell,jamal.campbell51@outlook.com,42,Male,2026-06-10,Bronze,Boulder,CO,USA,Organic Search,True
+615127,Daniel,Anderson,daniel.anderson704@gmail.com,36,Male,2026-06-10,Bronze,Houston,TX,USA,Email Campaign,False
+561399,Alexander,Cohen,alexander.cohen73@icloud.com,41,Male,2026-06-12,Bronze,Cincinnati,OH,USA,Referral,False
+616640,Hannah,Young,hannah.young997@yahoo.com,60,Female,2026-06-13,Bronze,Worcester,MA,USA,Organic Search,False
+774402,Grace,Wilson,grace.wilson343@gmail.com,50,Female,2026-06-14,Bronze,Pittsburgh,PA,USA,Paid Social,True
+148019,Oliver,Taylor,oliver.taylor869@gmail.com,35,Male,2026-06-14,Bronze,New York,NY,USA,Email Campaign,True
+469381,Layla,Rivera,layla.rivera235@yahoo.com,30,Female,2026-06-15,Silver,Quebec City,QC,Canada,Direct,False
+771610,Samuel,Singh,samuel.singh151@gmail.com,29,Male,2026-06-17,Silver,Surrey,BC,Canada,Email Campaign,False
+236238,Nora,Murphy,nora.murphy673@gmail.com,45,Female,2026-06-20,Bronze,Boulder,CO,USA,Direct,True
+598249,Fatima,Gonzalez,fatima.gonzalez196@outlook.com,31,Female,2026-06-23,Bronze,Montreal,QC,Canada,Organic Search,True
+918350,Levi,Anderson,levi.anderson394@yahoo.com,29,Male,2026-06-23,Bronze,Worcester,MA,USA,Organic Search,False
+515464,William,Roberts,william.roberts361@gmail.com,47,Male,2026-06-24,Bronze,Buffalo,NY,USA,Organic Search,False
+526707,Ella,Flores,ella.flores683@gmail.com,37,Female,2026-06-24,Bronze,New York,NY,USA,Organic Search,False
+795788,Lucas,Thomas,lucas.thomas279@yahoo.com,46,Male,2026-06-24,Bronze,Philadelphia,PA,USA,Organic Search,False
+861400,Mateo,Lee,mateo.lee163@gmail.com,43,Male,2026-06-25,Bronze,Pittsburgh,PA,USA,Referral,True
+846056,Henry,Green,henry.green552@gmail.com,41,Male,2026-06-26,Silver,San Diego,CA,USA,Email Campaign,False
+277274,Grace,Moore,grace.moore766@gmail.com,50,Female,2026-06-27,Bronze,Mesa,AZ,USA,Organic Search,True
+122359,Oliver,Thomas,oliver.thomas363@yahoo.com,34,Male,2026-06-30,Bronze,San Diego,CA,USA,Affiliate,True
+802648,Arjun,White,arjun.white877@yahoo.com,46,Male,2026-07-02,Bronze,San Jose,CA,USA,Email Campaign,True
+880524,Mateo,Chen,mateo.chen834@proton.me,27,Male,2026-07-04,Silver,Tucson,AZ,USA,Organic Search,True
+924385,Riley,Young,riley.young307@yahoo.com,20,Non-binary,2026-07-05,Bronze,Miami,FL,USA,Organic Search,False
+696859,Theodore,Walker,theodore.walker664@outlook.com,41,,2026-07-05,Bronze,Tampa,FL,USA,Referral,False
+590306,Lucas,Wilson,lucas.wilson268@outlook.com,43,Male,2026-07-06,Silver,Albany,NY,USA,Paid Social,False
+228695,Lucas,Rivera,lucas.rivera435@gmail.com,41,Male,2026-07-06,Bronze,Orlando,FL,USA,Paid Social,True
+216395,Elijah,Nelson,elijah.nelson983@gmail.com,35,Male,2026-07-06,Bronze,Colorado Springs,CO,USA,Email Campaign,True
+210406,Camila,Rodriguez,camila.rodriguez533@gmail.com,39,Female,2026-07-07,Silver,Naperville,IL,USA,Direct,False
+178914,Carlos,Brown,carlos.brown352@icloud.com,38,Male,2026-07-09,Bronze,Raleigh,NC,USA,Email Campaign,True
+750177,Riley,Lewis,riley.lewis772@gmail.com,26,Non-binary,2026-07-10,Silver,Cleveland,OH,USA,Referral,True
+992498,Henry,King,henry.king713@yahoo.com,18,Male,2026-07-12,Bronze,Houston,TX,USA,Direct,False
+181380,Aisha,Johnson,aisha.johnson885@gmail.com,26,Female,2026-07-21,Bronze,Spokane,WA,USA,Referral,True
+621194,Oliver,Moore,oliver.moore701@gmail.com,28,Male,2026-07-21,Silver,Surrey,BC,Canada,Paid Social,False
+570736,Oliver,Young,oliver.young355@icloud.com,38,Male,2026-07-24,Silver,Cleveland,OH,USA,Paid Social,False
+488083,Jamal,Singh,jamal.singh669@gmail.com,25,Male,2026-07-29,Bronze,Orlando,FL,USA,Paid Social,True
+327967,William,Lewis,william.lewis396@gmail.com,72,Male,2026-07-30,Bronze,San Jose,CA,USA,Direct,False
+248546,Sofia,Adams,sofia.adams355@hotmail.com,43,Female,2026-07-31,Bronze,Boston,MA,USA,Paid Social,False
+202976,Scarlett,Allen,scarlett.allen76@gmail.com,40,Female,2026-08-01,Bronze,Philadelphia,PA,USA,Organic Search,True
+185555,Camila,Rivera,camila.rivera674@gmail.com,62,Female,2026-08-03,Bronze,Sacramento,CA,USA,Direct,True
+509844,Layla,Adams,layla.adams517@gmail.com,42,Female,2026-08-05,Silver,Denver,CO,USA,Organic Search,True
+195440,Priya,Silva,priya.silva706@gmail.com,50,Female,2026-08-06,Bronze,Tampa,FL,USA,Referral,True
+931974,Kenji,Walker,kenji.walker545@gmail.com,47,Male,2026-08-07,Bronze,San Diego,CA,USA,Paid Social,True
+231486,Isabella,Miller,isabella.miller434@yahoo.com,23,Female,2026-08-10,Silver,Allentown,PA,USA,Paid Social,False
+698997,Jack,Baker,jack.baker852@gmail.com,21,Male,2026-08-11,Silver,Dallas,TX,USA,Organic Search,True
+997141,Emily,Thomas,emily.thomas469@gmail.com,25,Female,2026-08-12,Bronze,Missoula,MT,USA,Paid Social,True
+433355,Wei,Rodriguez,wei.rodriguez547@outlook.com,42,Male,2026-08-12,Bronze,Dallas,TX,USA,Paid Social,True
+709497,Olivia,Nguyen,olivia.nguyen192@gmail.com,29,Female,2026-08-14,Bronze,Ames,IA,USA,Direct,True
+132540,Layla,Harris,layla.harris71@outlook.com,38,Female,2026-08-16,Bronze,Savannah,GA,USA,Email Campaign,True
+798963,Arjun,Taylor,arjun.taylor429@gmail.com,51,Male,2026-08-17,Bronze,Cincinnati,OH,USA,Email Campaign,False
+542799,Olivia,Sanchez,olivia.sanchez673@gmail.com,47,Female,2026-08-19,Bronze,New York,NY,USA,Referral,False
+834515,Kenji,Davis,kenji.davis330@gmail.com,33,Male,2026-08-22,Bronze,Boulder,CO,USA,Paid Social,True
+670233,Diego,Carter,diego.carter438@proton.me,42,Male,2026-08-23,Bronze,Los Angeles,CA,USA,Organic Search,True
+982080,Sophia,Young,sophia.young386@gmail.com,28,Female,2026-08-24,Bronze,Tampa,FL,USA,Organic Search,True
+928382,Quinn,Kowalski,quinn.kowalski377@outlook.com,20,Non-binary,2026-08-25,Silver,Miami,FL,USA,Direct,True
+619405,Camila,Carter,camila.carter498@gmail.com,21,Female,2026-08-26,Bronze,Naperville,IL,USA,Affiliate,True
+214719,Layla,Thomas,layla.thomas773@outlook.com,56,Female,2026-08-26,Bronze,Cincinnati,OH,USA,Email Campaign,False
+526725,Wei,Scott,wei.scott941@gmail.com,53,Male,2026-08-28,Bronze,Fresno,CA,USA,Referral,True
+199508,Rowan,Johnson,rowan.johnson573@gmail.com,44,Non-binary,2026-08-28,Bronze,Dallas,TX,USA,Organic Search,False
+287383,Jack,Davis,jack.davis24@hotmail.com,33,Male,2026-08-28,Bronze,New York,NY,USA,Referral,True
+971491,Owen,Hernandez,owen.hernandez451@gmail.com,53,,2026-08-28,Silver,Worcester,MA,USA,Referral,False
+295857,Sofia,Harris,sofia.harris266@gmail.com,35,Female,2026-08-30,Bronze,Miami,FL,USA,Organic Search,False
+213546,Amelia,Hall,,34,Female,2026-09-07,Bronze,Worcester,MA,USA,Paid Social,False
+254111,Jack,Wright,jack.wright612@yahoo.com,72,Male,2026-09-07,Bronze,Sacramento,CA,USA,Email Campaign,True
+901144,Olivia,Campbell,olivia.campbell766@yahoo.com,27,Female,2026-09-09,Bronze,Charlotte,NC,USA,Email Campaign,True
+430265,Grace,Wilson,grace.wilson250@hotmail.com,44,Female,2026-09-10,Bronze,Houston,TX,USA,Organic Search,False
+694046,Oliver,Okafor,oliver.okafor630@yahoo.com,63,Male,2026-09-11,Silver,Tacoma,WA,USA,Paid Social,True
+197643,Theodore,Cohen,theodore.cohen854@outlook.com,,Male,2026-09-11,Bronze,San Diego,CA,USA,Organic Search,True
+520397,Samuel,Taylor,samuel.taylor693@outlook.com,33,Male,2026-09-12,Bronze,Laval,QC,Canada,Organic Search,True
+652762,Scarlett,Torres,scarlett.torres345@icloud.com,42,Female,2026-09-14,Bronze,Calgary,AB,Canada,Organic Search,True
+215176,Ella,Hall,ella.hall320@yahoo.com,41,Female,2026-09-15,Bronze,Buffalo,NY,USA,Organic Search,True
+909820,Aisha,Kowalski,aisha.kowalski945@outlook.com,46,Female,2026-09-15,Bronze,Rochester,NY,USA,Email Campaign,True
+609183,Fatima,Brown,fatima.brown685@gmail.com,25,Female,2026-09-15,Bronze,Philadelphia,PA,USA,Direct,True
+691899,Scarlett,Hall,scarlett.hall300@gmail.com,43,Female,2026-09-15,Bronze,Sacramento,CA,USA,Organic Search,True
+396629,Ava,Hall,ava.hall428@gmail.com,37,Female,2026-09-18,Bronze,Columbus,OH,USA,Organic Search,True
+787831,Ethan,Rodriguez,ethan.rodriguez231@gmail.com,21,Male,2026-09-21,Bronze,San Diego,CA,USA,Paid Social,True
+579495,James,Wilson,james.wilson808@gmail.com,41,Male,2026-09-22,Silver,Austin,TX,USA,Organic Search,True
+716919,Grace,Hill,grace.hill628@gmail.com,66,Female,2026-09-24,Bronze,Philadelphia,PA,USA,Referral,True
+434007,Alex,Torres,alex.torres472@icloud.com,40,Non-binary,2026-09-26,Bronze,Dallas,TX,USA,Affiliate,False
+755733,Morgan,Lee,morgan.lee402@gmail.com,47,Non-binary,2026-09-28,Bronze,Salem,OR,USA,Referral,False
