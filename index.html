@@ -199,7 +199,7 @@
             return lines.map(l => { const v = l.split(','), o = {}; keys.forEach((k, i) => o[k] = v[i]); return o });
         }
         const group = (rows, fn) => { const m = {}; rows.forEach(r => { const k = fn(r); m[k] = (m[k] || 0) + +r.total_amount }); return m };
-        const top = (m, n) => Object.entries(m).sort((a, b) => b[1] - a[1]).slice(0, n);
+        const topN = (m, n) => Object.entries(m).sort((a, b) => b[1] - a[1]).slice(0, n);
 
         function count(el, to, f) {
             const from = +el.dataset.v || 0, t0 = performance.now(); el.dataset.v = to;
@@ -235,20 +235,20 @@
             const mo = group(rows, o => o.order_date.slice(0, 7)), ms = Object.keys(mo).sort();
             draw('c1', 'line', ms, ms.map(k => mo[k]), { colors: 'rgba(108,140,255,.18)', line: '#6c8cff', fill: true });
 
-            const c = top(group(all, o => o.product_category), 9);
+            const c = topN(group(all, o => o.product_category), 9);
             draw('c2', 'bar', c.map(x => x[0]), c.map(x => x[1]), {
                 h: true,
                 colors: c.map(x => cat === 'All' || x[0] === cat ? '#6c8cff' : 'rgba(108,140,255,.25)'),
                 click: (e, els, ch) => { if (els.length) { const n = ch.data.labels[els[0].index]; $('#cat').value = $('#cat').value === n ? 'All' : n; render() } }
             });
 
-            const s = top(group(rows, o => (cust[o.customer_id] || {}).state || '?'), 10);
+            const s = topN(group(rows, o => (cust[o.customer_id] || {}).state || '?'), 10);
             draw('c3', 'bar', s.map(x => x[0]), s.map(x => x[1]), { colors: '#34d1b6' });
 
             const tiers = ['Bronze', 'Silver', 'Gold', 'Platinum'], t = group(rows, o => (cust[o.customer_id] || {}).loyalty_tier);
             draw('c4', 'bar', tiers, tiers.map(x => t[x] || 0), { colors: ['#c98b5a', '#b8c0d0', '#ffd96b', '#8ff0ff'] });
 
-            const p = top(group(rows, o => o.payment_method || 'Unknown'), 8);
+            const p = topN(group(rows, o => o.payment_method || 'Unknown'), 8);
             draw('c5', 'doughnut', p.map(x => x[0]), p.map(x => x[1]));
         }
 
