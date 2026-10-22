@@ -9,6 +9,11 @@ A reproducible generator for a realistic, relational e-commerce dataset for **SQ
 
 ## Quick start
 
+## Dashboard
+
+![Dashboard](images/dashboard.png)
+
+[View the live dashboard on Tableau Public](https://public.tableau.com/app/profile/phillipp.cun/viz/E-CommerceSaleDashboard/Dashboard1?publish=yes)
 ```bash
 pip install -r requirements.txt
 python generate_data.py        # writes data/customers.csv and data/orders.csv
