@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-Commerce Sales Dashboard</title>
+    <script src="chart.umd.min.js"></script>
+    <style>
+        :root {
+            --bg: #0f1220;
+            --card: #181c30;
+            --text: #e8eaf6;
+            --muted: #8b91b3;
+            --accent: #6c8cff
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            padding: 28px;
+            background: radial-gradient(circle at 20% -10%, #1d2450, var(--bg) 55%);
+            color: var(--text);
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+            min-height: 100vh
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 24px;
+            animation: fade .8s both
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.6rem;
+            background: linear-gradient(90deg, #fff, var(--accent));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent
+        }
+
+        select {
+            background: var(--card);
+            color: var(--text);
+            border: 1px solid #2c3258;
+            border-radius: 8px;
+            padding: 8px 12px;
+            font-size: .95rem
+        }
+
+        .grid {
+            display: grid;
+            gap: 16px;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr))
+        }
+
+        .kpis {
+            display: grid;
+            gap: 16px;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            margin-bottom: 16px
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid #232850;
+            border-radius: 14px;
+            padding: 18px;
+            animation: up .7s both;
+            animation-delay: calc(var(--i)*90ms);
+            transition: transform .25s, box-shadow .25s
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(108, 140, 255, .18)
+        }
+
+        .card h3 {
+            margin: 0 0 10px;
+            font-size: .8rem;
+            font-weight: 600;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: .06em
+        }
+
+        .kpi b {
+            font-size: 2rem
+        }
+
+        .wide {
+            grid-column: 1/-1
+        }
+
+        .box {
+            height: 290px;
+            position: relative
+        }
+
+        footer,
+        #err {
+            color: var(--muted);
+            font-size: .8rem;
+            margin-top: 20px
+        }
+
+        #err {
+            color: #ff8f8f
+        }
+
+        @keyframes up {
+            from {
+                opacity: 0;
+                transform: translateY(24px)
+            }
+
+            to {
+                opacity: 1;
+                transform: none
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>E-Commerce Sales Dashboard</h1>
+        <label>Category <select id="cat">
+                <option>All</option>
+            </select></label>
+    </header>
+    <div class="kpis">
+        <div class="card kpi" style="--i:0">
+            <h3>Revenue</h3><b id="k1">$0</b>
+        </div>
+        <div class="card kpi" style="--i:1">
+            <h3>Orders</h3><b id="k2">0</b>
+        </div>
+        <div class="card kpi" style="--i:2">
+            <h3>Avg order value</h3><b id="k3">$0</b>
+        </div>
+        <div class="card kpi" style="--i:3">
+            <h3>Active customers</h3><b id="k4">0</b>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="card wide" style="--i:4">
+            <h3>Monthly revenue</h3>
+            <div class="box"><canvas id="c1"></canvas></div>
+        </div>
+        <div class="card" style="--i:5">
+            <h3>Revenue by category (click a bar)</h3>
+            <div class="box"><canvas id="c2"></canvas></div>
+        </div>
+        <div class="card" style="--i:6">
+            <h3>Top 10 states</h3>
+            <div class="box"><canvas id="c3"></canvas></div>
+        </div>
+        <div class="card" style="--i:7">
+            <h3>Loyalty tier</h3>
+            <div class="box"><canvas id="c4"></canvas></div>
+        </div>
+        <div class="card" style="--i:8">
+            <h3>Payment method</h3>
+            <div class="box"><canvas id="c5"></canvas></div>
+        </div>
+    </div>
+    <p id="err" hidden></p>
+    <footer>Synthetic data. Revenue excludes cancelled orders.</footer>
+    <script>
+        const $ = s => document.querySelector(s), fmt = n => Math.round(n).toLocaleString('en-US'), usd = n => '$' + fmt(n);
+        const COLORS = ['#6c8cff', '#34d1b6', '#ffb86b', '#ff6b8b', '#b48cff', '#5ad1ff', '#ffd96b', '#8be26b', '#ff8f6b', '#9aa5ff'];
+        let orders = [], cust = {}, charts = {};
+
+        async function load(f) {
+            const res = await fetch(f);
+            if (!res.ok) throw new Error('Could not load ' + f + ' (HTTP ' + res.status + ')');
+            const lines = (await res.text()).trim().split(/\r?\n/);
+            const keys = lines.shift().split(',');
+            return lines.map(l => { const v = l.split(','), o = {}; keys.forEach((k, i) => o[k] = v[i]); return o });
+        }
+        const group = (rows, fn) => { const m = {}; rows.forEach(r => { const k = fn(r); m[k] = (m[k] || 0) + +r.total_amount }); return m };
+        const top = (m, n) => Object.entries(m).sort((a, b) => b[1] - a[1]).slice(0, n);
+
+        function count(el, to, f) {
+            const from = +el.dataset.v || 0, t0 = performance.now(); el.dataset.v = to;
+            (function step(t) {
+                const p = Math.min((t - t0) / 900, 1), e = 1 - Math.pow(1 - p, 3);
+                el.textContent = f(from + (to - from) * e); if (p < 1) requestAnimationFrame(step)
+            })(t0);
+        }
+        function draw(id, type, labels, data, o = {}) {
+            const colors = o.colors || COLORS;
+            if (charts[id]) { const c = charts[id]; c.data.labels = labels; c.data.datasets[0].data = data; c.data.datasets[0].backgroundColor = colors; c.update(); return }
+            const val = o.h ? 'x' : 'y';
+            charts[id] = new Chart($('#' + id), {
+                type,
+                data: { labels, datasets: [{ data, backgroundColor: colors, borderColor: o.line || 'transparent', borderWidth: o.line ? 2 : 0, borderRadius: 6, fill: !!o.fill, tension: .35, pointRadius: o.line ? 3 : 0 }] },
+                options: {
+                    indexAxis: o.h ? 'y' : 'x', maintainAspectRatio: false, onClick: o.click,
+                    plugins: { legend: { display: type === 'doughnut', position: 'bottom' }, tooltip: { callbacks: { label: c => usd(c.parsed[val] ?? c.parsed) } } },
+                    scales: type === 'doughnut' ? {} : { [val]: { ticks: { callback: v => '$' + v / 1000 + 'k' } } }
+                }
+            });
+        }
+
+        function render() {
+            const cat = $('#cat').value;
+            const all = orders.filter(o => o.order_status !== 'Cancelled');
+            const rows = all.filter(o => cat === 'All' || o.product_category === cat);
+            const rev = rows.reduce((s, o) => s + +o.total_amount, 0);
+            count($('#k1'), rev, usd); count($('#k2'), rows.length, fmt);
+            count($('#k3'), rows.length ? rev / rows.length : 0, n => '$' + n.toFixed(2));
+            count($('#k4'), new Set(rows.map(o => o.customer_id)).size, fmt);
+
+            const mo = group(rows, o => o.order_date.slice(0, 7)), ms = Object.keys(mo).sort();
+            draw('c1', 'line', ms, ms.map(k => mo[k]), { colors: 'rgba(108,140,255,.18)', line: '#6c8cff', fill: true });
+
+            const c = top(group(all, o => o.product_category), 9);
+            draw('c2', 'bar', c.map(x => x[0]), c.map(x => x[1]), {
+                h: true,
+                colors: c.map(x => cat === 'All' || x[0] === cat ? '#6c8cff' : 'rgba(108,140,255,.25)'),
+                click: (e, els, ch) => { if (els.length) { const n = ch.data.labels[els[0].index]; $('#cat').value = $('#cat').value === n ? 'All' : n; render() } }
+            });
+
+            const s = top(group(rows, o => (cust[o.customer_id] || {}).state || '?'), 10);
+            draw('c3', 'bar', s.map(x => x[0]), s.map(x => x[1]), { colors: '#34d1b6' });
+
+            const tiers = ['Bronze', 'Silver', 'Gold', 'Platinum'], t = group(rows, o => (cust[o.customer_id] || {}).loyalty_tier);
+            draw('c4', 'bar', tiers, tiers.map(x => t[x] || 0), { colors: ['#c98b5a', '#b8c0d0', '#ffd96b', '#8ff0ff'] });
+
+            const p = top(group(rows, o => o.payment_method || 'Unknown'), 8);
+            draw('c5', 'doughnut', p.map(x => x[0]), p.map(x => x[1]));
+        }
+
+        (async () => {
+            try {
+                if (typeof Chart === 'undefined') throw new Error('chart.umd.min.js did not load. Make sure it is in the same folder as index.html.');
+                Chart.defaults.color = '#8b91b3'; Chart.defaults.borderColor = 'rgba(255,255,255,.06)';
+                Chart.defaults.animation.duration = 1100; Chart.defaults.animation.easing = 'easeOutQuart';
+                const [o, c] = await Promise.all([load('data/orders.csv'), load('data/customers.csv')]);
+                orders = o; c.forEach(x => cust[x.customer_id] = x);
+                const cats = [...new Set(o.map(x => x.product_category))].sort();
+                $('#cat').innerHTML = '<option>All</option>' + cats.map(x => `<option>${x}</option>`).join('');
+                $('#cat').onchange = render; render();
+            } catch (e) {
+                $('#err').hidden = false;
+                $('#err').textContent = 'Error: ' + e.message + ' (If you opened this file directly, run "python3 -m http.server" in this folder and visit http://localhost:8000)';
+            }
+        })();
+    </script>
+</body>
+
+</html>
